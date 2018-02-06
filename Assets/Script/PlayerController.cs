@@ -18,6 +18,9 @@ public class PlayerController : MonoBehaviour {
 	public float rotation = 0f;
 	CharacterController controller;
 	private Vector3 moveDirection;
+	public GameObject bulletPrefab;
+	public Transform bulletSpawn;
+
 
 
 
@@ -43,6 +46,8 @@ public class PlayerController : MonoBehaviour {
 
 
 		anim.SetBool ("Jump", false);
+		anim.SetBool ("Shoot", false);
+	
 
 		if (controller.isGrounded) {
 			verticalVelocity = -gravity * Time.deltaTime;
@@ -84,8 +89,43 @@ public class PlayerController : MonoBehaviour {
 
 		}
 
+		if (Input.GetKeyDown (KeyCode.Space)) {
+
+			if (timer <= 0) {
+				timer = 0.5f;
+				anim.Play ("Shoot");
+				Fuoco ();
+			}
+
+
+
+		}
+
+
+
+
 
 	}
+
+	void Fuoco(){
+
+		var bullet = (GameObject)Instantiate (
+
+			bulletPrefab,
+			bulletSpawn.position,
+			bulletSpawn.rotation);
+
+
+	
+		bullet.GetComponent<Rigidbody> ().AddRelativeForce (0f, 0f, 50f, ForceMode.Impulse);
+
+
+
+		Destroy (bullet, 2.0f);
+
+
+	}
+
 
 
 

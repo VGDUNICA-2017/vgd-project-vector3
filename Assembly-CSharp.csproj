@@ -54,6 +54,8 @@
      <Compile Include="Assets\Script\CameraScript.cs" />
      <Compile Include="Assets\Script\PlayerController.cs" />
      <None Include="Assets\Models\Wood texture floor_01\readme.txt" />
+     <None Include="Assets\sryurikennset\Readmejp.txt" />
+     <None Include="Assets\sryurikennset\Readme.txt" />
  <Reference Include="Facebook.Unity.Settings">
  <HintPath>C:/Users/Stefano/Documents/Kiyoshia Journey- VGD/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>

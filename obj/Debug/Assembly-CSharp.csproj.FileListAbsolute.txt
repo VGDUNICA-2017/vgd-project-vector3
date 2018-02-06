@@ -1,3 +1,4 @@
+C:\Users\Stefano\Documents\Kiyoshia Journey- VGD\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\Stefano\Documents\Kiyoshia Journey- VGD\Temp\bin\Debug\Assembly-CSharp.dll
 C:\Users\Stefano\Documents\Kiyoshia Journey- VGD\Temp\bin\Debug\Assembly-CSharp.pdb
 C:\Users\Stefano\Documents\Kiyoshia Journey- VGD\Temp\bin\Debug\Facebook.Unity.Settings.dll
@@ -34,6 +35,5 @@ C:\Users\Stefano\Documents\Kiyoshia Journey- VGD\Temp\bin\Debug\UnityEngine.UIAu
 C:\Users\Stefano\Documents\Kiyoshia Journey- VGD\Temp\bin\Debug\UnityEngine.GoogleAudioSpatializer.xml
 C:\Users\Stefano\Documents\Kiyoshia Journey- VGD\Temp\bin\Debug\UnityEngine.HoloLens.xml
 C:\Users\Stefano\Documents\Kiyoshia Journey- VGD\Temp\bin\Debug\UnityEngine.SpatialTracking.xml
-C:\Users\Stefano\Documents\Kiyoshia Journey- VGD\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
 C:\Users\Stefano\Documents\Kiyoshia Journey- VGD\obj\Debug\Assembly-CSharp.dll
 C:\Users\Stefano\Documents\Kiyoshia Journey- VGD\obj\Debug\Assembly-CSharp.pdb
