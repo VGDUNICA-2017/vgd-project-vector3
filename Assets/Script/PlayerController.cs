@@ -89,7 +89,7 @@ public class PlayerController : MonoBehaviour {
 
 		}
 
-		if (Input.GetKeyDown (KeyCode.Space)) {
+		if (Input.GetKeyDown (KeyCode.W)) {
 
 			if (timer <= 0) {
 				timer = 0.5f;
