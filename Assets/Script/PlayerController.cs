@@ -127,6 +127,20 @@ public class PlayerController : MonoBehaviour {
 	}
 
 
+	void OnCollisionEnter(Collision collision)
+	{
 
+		var hit = collision.gameObject;
+
+		if(hit.CompareTag("PlayerDead1")){
+
+			SceneManager.LoadScene("Level01");
+
+
+		}
+
+
+
+	}	
 
 }

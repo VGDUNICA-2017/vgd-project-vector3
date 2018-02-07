@@ -55,10 +55,10 @@
      <Compile Include="Assets\Script\Coin.cs" />
      <Compile Include="Assets\Script\PlayerController.cs" />
      <None Include="Assets\Models\Wood texture floor_01\readme.txt" />
-     <None Include="Assets\sryurikennset\Readmejp.txt" />
+     <None Include="Assets\Prefabs\sryurikennset\Readmejp.txt" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
-     <None Include="Assets\sryurikennset\Readme.txt" />
+     <None Include="Assets\Prefabs\sryurikennset\Readme.txt" />
      <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
