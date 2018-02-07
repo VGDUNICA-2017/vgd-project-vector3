@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F30BEB3C-F171-2C4B-1F1E-C8255C7F9A6B}</ProjectGuid>
+    <ProjectGuid>{82D2984E-5318-FDBD-5C4B-8FD13B6107C4}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Script\CameraScript.cs" />
+     <Compile Include="Assets\Script\Coin.cs" />
      <Compile Include="Assets\Script\PlayerController.cs" />
      <None Include="Assets\Models\Wood texture floor_01\readme.txt" />
      <None Include="Assets\sryurikennset\Readmejp.txt" />
@@ -62,7 +63,7 @@
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
  <Reference Include="Facebook.Unity.Settings">
- <HintPath>C:/Users/Stefano/Documents/Kiyoshia Journey- VGD/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
+ <HintPath>C:/Users/Stefano/Documents/vgd-project-vector3_/Library/FacebookSDK/Facebook.Unity.Settings.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
@@ -100,7 +101,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{3AB02540-916D-08AB-16F3-3B4A5551E0DC}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{27A36299-6470-9C1A-A152-6E3CE893932F}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
