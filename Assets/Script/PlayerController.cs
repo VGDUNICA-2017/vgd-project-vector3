@@ -20,7 +20,8 @@ public class PlayerController : MonoBehaviour {
 	private Vector3 moveDirection;
 	public GameObject bulletPrefab;
 	public Transform bulletSpawn;
-
+	public const int maxHealth = 150;
+	public static int currentHealth = maxHealth; 
 
 
 
@@ -134,13 +135,31 @@ public class PlayerController : MonoBehaviour {
 
 		if(hit.CompareTag("PlayerDead1")){
 
-			SceneManager.LoadScene("Level01");
 
+			SceneManager.LoadScene("Level01");
+			ScoreManager.score = 0;
+
+
+		
 
 		}
 
 
 
-	}	
+
+	}
+
+	public void TakeDamage(int amount) {
+
+		currentHealth -= amount; 
+
+		if (currentHealth <= 0) { 
+
+			currentHealth = 0;
+
+			Destroy (this.gameObject);
+		}
+	}
+
 
 }

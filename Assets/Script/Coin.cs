@@ -17,6 +17,7 @@ public class Coin : MonoBehaviour {
 	void OnTriggerEnter(Collider other){
 
 
+		ScoreManager.score += 1;
 		Destroy (this.gameObject);
 
 

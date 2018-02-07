@@ -6,6 +6,7 @@ TagManager:
   tags:
   - PlayerDead
   - PlayerDead1
+  - PickUp
   layers:
   - Default
   - TransparentFX
