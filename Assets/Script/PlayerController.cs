@@ -26,6 +26,7 @@ public class PlayerController : MonoBehaviour {
 
 
 
+
 	// Use this for initialization
 	void Start () {
 
@@ -41,6 +42,8 @@ public class PlayerController : MonoBehaviour {
 
 
 	void FixedUpdate() {
+
+	
 
 
 		moveDirection = new Vector3 (0f, verticalVelocity, speed);
@@ -78,14 +81,14 @@ public class PlayerController : MonoBehaviour {
 
 		if (Input.GetAxis("Horizontal")> 0){
 
-			controller.Move (new Vector3 (0.07f, 0f, 0f));
+			controller.Move (new Vector3 (0.08f, 0f, 0f));
 
 		}
 
 		if (Input.GetAxis("Horizontal") < 0){
 
 
-			controller.Move (new Vector3 (-0.07f, 0f, 0f));
+			controller.Move (new Vector3 (-0.08f, 0f, 0f));
 
 
 		}
@@ -143,13 +146,13 @@ public class PlayerController : MonoBehaviour {
 		
 
 		}
-
-
+			
 
 
 	}
 
-	public void TakeDamage(int amount) {
+
+public void TakeDamage(int amount) {
 
 		currentHealth -= amount; 
 
@@ -158,6 +161,12 @@ public class PlayerController : MonoBehaviour {
 			currentHealth = 0;
 
 			Destroy (this.gameObject);
+
+			SceneManager.LoadScene ("Level01");
+			ScoreManager.score = 0;
+
+			currentHealth = maxHealth;
+		
 		}
 	}
 

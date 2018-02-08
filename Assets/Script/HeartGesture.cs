@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class HeartGesture : MonoBehaviour {
 
-	public GameObject heartone;
-	public GameObject hearttwo;
-	public GameObject hearttree;
+	public   GameObject heartone;
+	public   GameObject hearttwo;
+	public  GameObject hearttree;
 
 
 	// Use this for initialization
@@ -43,6 +43,17 @@ public class HeartGesture : MonoBehaviour {
 		
 		
 		}
-		
+
 	}
+
+	public void restart(){
+	
+		heartone.SetActive (true);
+		hearttwo.SetActive (true);
+		hearttree.SetActive (true);
+	
+	
+	}
+
+
 }

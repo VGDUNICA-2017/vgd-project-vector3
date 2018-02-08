@@ -7,6 +7,12 @@ TagManager:
   - PlayerDead
   - PlayerDead1
   - PickUp
+  - Centro
+  - Sinistra
+  - Destra
+  - Enemy
+  - EnemyShoot
+  - Giocatore
   layers:
   - Default
   - TransparentFX
