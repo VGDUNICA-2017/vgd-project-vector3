@@ -52,6 +52,7 @@ GameObject:
   - component: {fileID: 95412126706495086}
   - component: {fileID: 54136521239272232}
   - component: {fileID: 65562064125686502}
+  - component: {fileID: 114988270470879320}
   m_Layer: 0
   m_Name: Bullet 1
   m_TagString: Untagged
@@ -174,6 +175,17 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114988270470879320
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1654906443666118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bec09c4d011edc142991b0e1ef013112, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!137 &137019519963017474
 SkinnedMeshRenderer:
   m_ObjectHideFlags: 1

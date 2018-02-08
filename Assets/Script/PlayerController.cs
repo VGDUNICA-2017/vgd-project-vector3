@@ -81,14 +81,14 @@ public class PlayerController : MonoBehaviour {
 
 		if (Input.GetAxis("Horizontal")> 0){
 
-			controller.Move (new Vector3 (0.08f, 0f, 0f));
+			controller.Move (new Vector3 (0.1f, 0f, 0f));
 
 		}
 
 		if (Input.GetAxis("Horizontal") < 0){
 
 
-			controller.Move (new Vector3 (-0.08f, 0f, 0f));
+			controller.Move (new Vector3 (-0.1f, 0f, 0f));
 
 
 		}

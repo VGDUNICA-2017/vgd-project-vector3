@@ -10,9 +10,9 @@ TagManager:
   - Centro
   - Sinistra
   - Destra
-  - Enemy
   - EnemyShoot
   - Giocatore
+  - EnemyShooter
   layers:
   - Default
   - TransparentFX
