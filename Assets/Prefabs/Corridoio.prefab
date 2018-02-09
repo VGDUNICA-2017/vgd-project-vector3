@@ -22,6 +22,7 @@ GameObject:
   - component: {fileID: 33492294973449152}
   - component: {fileID: 64257578305013842}
   - component: {fileID: 23276823187818206}
+  - component: {fileID: 65718026462462862}
   m_Layer: 0
   m_Name: Quad
   m_TagString: PlayerDead1
@@ -184,3 +185,15 @@ MeshCollider:
   m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 4300000, guid: 18b73e7ccea5b0546a7811eda281a238, type: 3}
+--- !u!65 &65718026462462862
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1092332288140890}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1.0000001, z: 1.4272087e-14}
+  m_Center: {x: 0, y: 0, z: -0.0000019073486}

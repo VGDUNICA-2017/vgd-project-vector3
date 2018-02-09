@@ -146,6 +146,13 @@ public class PlayerController : MonoBehaviour {
 		
 
 		}
+
+		if(hit.CompareTag("ActivateEnemy")){
+
+			EnemyShootScript.activate = true;
+
+
+		}
 			
 
 
