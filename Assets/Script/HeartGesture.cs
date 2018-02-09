@@ -46,7 +46,7 @@ public class HeartGesture : MonoBehaviour {
 
 	}
 
-	public void restart(){
+	public  void restart(){
 	
 		heartone.SetActive (true);
 		hearttwo.SetActive (true);

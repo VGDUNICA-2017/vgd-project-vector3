@@ -138,9 +138,10 @@ public class PlayerController : MonoBehaviour {
 
 		if(hit.CompareTag("PlayerDead1")){
 
-
+			currentHealth = maxHealth;
 			SceneManager.LoadScene("Level01");
 			ScoreManager.score = 0;
+
 
 
 		
