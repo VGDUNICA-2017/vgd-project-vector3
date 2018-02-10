@@ -14,6 +14,8 @@ TagManager:
   - Giocatore
   - EnemyShooter
   - ActivateEnemy
+  - DeactivateEnemy
+  - Medikit
   layers:
   - Default
   - TransparentFX

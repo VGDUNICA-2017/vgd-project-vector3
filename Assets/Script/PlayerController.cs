@@ -154,6 +154,13 @@ public class PlayerController : MonoBehaviour {
 
 
 		}
+
+		if(hit.CompareTag("DeactivateEnemy")){
+
+			EnemyShootScript.activate = false;
+
+
+		}
 			
 
 
@@ -176,6 +183,13 @@ public void TakeDamage(int amount) {
 			currentHealth = maxHealth;
 		
 		}
+	}
+
+
+	public void Restore(int amount) {
+
+		currentHealth += amount; 
+
 	}
 
 
