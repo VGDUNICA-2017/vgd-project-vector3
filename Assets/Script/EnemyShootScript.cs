@@ -7,7 +7,7 @@ public class EnemyShootScript : MonoBehaviour {
 
 	public GameObject bulletPrefab;
 	public Transform bulletSpawn;
-	public float timer = 1f;
+	public float timer = 1.5f;
 	private Animator anim ;
 	public const int maxHealth = 100;
 	public static int currentHealth = maxHealth; 
@@ -29,7 +29,7 @@ public class EnemyShootScript : MonoBehaviour {
 
 		if (timer < 0 && activate ==true) {
 
-			timer = 1f;
+			timer = 1.5f;
 			anim.Play ("Attack");
 			var bullet = (GameObject)Instantiate (
 
