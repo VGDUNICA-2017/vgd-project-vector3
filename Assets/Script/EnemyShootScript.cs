@@ -30,7 +30,7 @@ public class EnemyShootScript : MonoBehaviour {
 		if (timer < 0 && activate ==true) {
 
 			timer = 1.5f;
-			anim.Play ("Attack");
+
 			var bullet = (GameObject)Instantiate (
 
 				            bulletPrefab,
@@ -41,7 +41,7 @@ public class EnemyShootScript : MonoBehaviour {
 
 			bullet.GetComponent<Rigidbody> ().AddRelativeForce (0f, 0f, -50f, ForceMode.Impulse);
 
-
+			anim.Play ("Attack");
 
 			Destroy (bullet, 3.0f);
 		}

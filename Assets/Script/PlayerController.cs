@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour {
 	bool isJump=false;
 	public float timer = 0.5f;
 	public GameObject MainCameras;
-	public float speed = 2.0F;
+	public float speed;
 	public float jumpSpeed = 1.0F;
 	public float gravity = 5.0F;
 	public float verticalVelocity;
@@ -20,8 +20,12 @@ public class PlayerController : MonoBehaviour {
 	private Vector3 moveDirection;
 	public GameObject bulletPrefab;
 	public Transform bulletSpawn;
+	public GameObject enemyRunnerPrefab;
+	public Transform enemySpawn;
 	public const int maxHealth = 150;
 	public static int currentHealth = maxHealth; 
+	private int timerRunner = 0;
+
 
 
 
@@ -161,6 +165,30 @@ public class PlayerController : MonoBehaviour {
 
 
 		}
+
+		if(hit.CompareTag("ActivateEnemyRunner")){
+
+
+
+			if (timerRunner <= 0) {
+
+				timerRunner = 3;
+
+				var enemyrunner = (GameObject)Instantiate (
+
+					                 enemyRunnerPrefab,
+					                 enemySpawn.position,
+					                 enemySpawn.rotation);
+
+
+
+				enemyrunner.GetComponent<Rigidbody> ().AddForce (0f, 0f, -1f, ForceMode.Acceleration);
+
+			}
+
+		}
+
+	
 			
 
 

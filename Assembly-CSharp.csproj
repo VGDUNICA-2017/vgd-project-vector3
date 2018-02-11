@@ -54,6 +54,7 @@
      <Compile Include="Assets\Script\BulletScript.cs" />
      <Compile Include="Assets\Script\CameraScript.cs" />
      <Compile Include="Assets\Script\Coin.cs" />
+     <Compile Include="Assets\Script\EnemyRunningScript.cs" />
      <Compile Include="Assets\Script\EnemyShootScript.cs" />
      <Compile Include="Assets\Script\EnemyShurikenScript.cs" />
      <Compile Include="Assets\Script\HeartGesture.cs" />
