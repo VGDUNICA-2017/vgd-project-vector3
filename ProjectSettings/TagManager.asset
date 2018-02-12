@@ -16,7 +16,7 @@ TagManager:
   - ActivateEnemy
   - DeactivateEnemy
   - Medikit
-  - ActivateEnemyRunner
+  - EnemyRunner
   layers:
   - Default
   - TransparentFX

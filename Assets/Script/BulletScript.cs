@@ -11,11 +11,17 @@ public class BulletScript : MonoBehaviour {
 
 		var hit = coll.gameObject;
 
-		if(hit.CompareTag("EnemyShooter")){
+		if(hit.CompareTag("EnemyShooter") ){
 
 			hit.GetComponent<EnemyShootScript> ().TakeDamage (damage);
 
 
+		}
+
+		if (hit.CompareTag ("EnemyRunner")) {
+		
+			hit.GetComponent<EnemyRunningScript> ().TakeDamage (damage);
+		
 		}
 
 	}

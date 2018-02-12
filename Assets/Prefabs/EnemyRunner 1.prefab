@@ -762,7 +762,7 @@ GameObject:
   - component: {fileID: 114640010310629152}
   m_Layer: 0
   m_Name: EnemyRunner 1
-  m_TagString: Untagged
+  m_TagString: EnemyRunner
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
