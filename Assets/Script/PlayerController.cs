@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour {
 	public Transform enemySpawn;
 	public const int maxHealth = 150;
 	public static int currentHealth = maxHealth; 
-	private int timerRunner = 0;
+
 
 
 
@@ -166,27 +166,7 @@ public class PlayerController : MonoBehaviour {
 
 		}
 
-		if(hit.CompareTag("ActivateEnemyRunner")){
-
-
-
-			if (timerRunner <= 0) {
-
-				timerRunner = 3;
-
-				var enemyrunner = (GameObject)Instantiate (
-
-					                 enemyRunnerPrefab,
-					                 enemySpawn.position,
-					                 enemySpawn.rotation);
-
-
-
-				enemyrunner.GetComponent<Rigidbody> ().AddForce (0f, 0f, -1f, ForceMode.Acceleration);
-
-			}
-
-		}
+	
 
 	
 			
@@ -214,9 +194,9 @@ public void TakeDamage(int amount) {
 	}
 
 
-	public void Restore(int amount) {
+	public void Restore() {
 
-		currentHealth += amount; 
+		currentHealth = maxHealth; 
 
 	}
 

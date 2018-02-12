@@ -7,13 +7,14 @@ public class EnemyRunningScript : MonoBehaviour {
 
 	public const int maxHealth = 100;
 	public static int currentHealth = maxHealth; 
-	public static bool activate ;
 	private Animator anim;
 	CharacterController controller;
 	private Rigidbody rb;
+	public float gravity = 5.0F;
 	private Vector3 moveDirection;
-	public float speed;
-	public float  timer;
+	private float speed = -0.3f;
+	public float verticalVelocity = 1.5f;
+
 
 
 
@@ -21,28 +22,24 @@ public class EnemyRunningScript : MonoBehaviour {
 	void Start () {
 
 		anim = GetComponent<Animator> ();
-		activate = false;
+		rb = GetComponent<Rigidbody> ();
 		controller = rb.GetComponent<CharacterController> ();
-		moveDirection = new Vector3 (0f, 0f, speed);
 
 		
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 
-		timer -= Time.deltaTime;
-	
-		if (activate == true && timer <= 0) {
-		
-			anim.SetBool ("Player", true);
-
-			controller.Move (moveDirection);
+		verticalVelocity -= gravity * Time.deltaTime;
+		moveDirection = new Vector3 (0f, 0f , speed);
+		anim.SetBool ("Player", true);
+        controller.Move (moveDirection);
 
 
 		
 		
-		}
+
 		
 	}
 
@@ -57,4 +54,23 @@ public class EnemyRunningScript : MonoBehaviour {
 			Destroy (this.gameObject);
 		}
 	}
+
+
+
+		public static int damage = 50;
+
+		void OnCollisionEnter(Collision coll){
+
+
+			var hit = coll.gameObject;
+
+			if(hit.CompareTag("Giocatore")){
+
+			hit.GetComponent<PlayerController> ().TakeDamage (damage);
+
+
+			}
+
+		}
+
 }

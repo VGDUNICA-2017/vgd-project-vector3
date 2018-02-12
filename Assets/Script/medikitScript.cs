@@ -11,7 +11,7 @@ public class medikitScript : MonoBehaviour {
 
 		if (hit.CompareTag ("Giocatore")) {
 		
-			hit.GetComponent<PlayerController> ().Restore (100);
+			hit.GetComponent<PlayerController> ().Restore ();
 
 			Destroy (this.gameObject);
 			
