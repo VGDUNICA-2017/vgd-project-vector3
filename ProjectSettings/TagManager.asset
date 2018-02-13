@@ -17,6 +17,8 @@ TagManager:
   - DeactivateEnemy
   - Medikit
   - EnemyRunner
+  - ActivateEnemyRunner
+  - CurvaADX
   layers:
   - Default
   - TransparentFX

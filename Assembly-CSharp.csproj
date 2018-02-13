@@ -53,10 +53,12 @@
   <ItemGroup>
      <Compile Include="Assets\Script\BulletScript.cs" />
      <Compile Include="Assets\Script\CameraScript.cs" />
+     <Compile Include="Assets\Script\ChangeCameraScript.cs" />
      <Compile Include="Assets\Script\Coin.cs" />
      <Compile Include="Assets\Script\EnemyRunningScript.cs" />
      <Compile Include="Assets\Script\EnemyShootScript.cs" />
      <Compile Include="Assets\Script\EnemyShurikenScript.cs" />
+     <Compile Include="Assets\Script\EnemySpawnCURVADX.cs" />
      <Compile Include="Assets\Script\HeartGesture.cs" />
      <Compile Include="Assets\Script\medikitScript.cs" />
      <Compile Include="Assets\Script\PlayerController.cs" />

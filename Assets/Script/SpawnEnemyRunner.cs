@@ -9,6 +9,7 @@ public class SpawnEnemyRunner : MonoBehaviour {
 	public Transform enemySpawn;
 	private int timerRunner = 0;
 
+
 	void OnCollisionEnter(Collision other){
 	
 		
@@ -16,16 +17,17 @@ public class SpawnEnemyRunner : MonoBehaviour {
 
 				timerRunner = 3;
 
-				var enemyrunner = (GameObject)Instantiate (
+			var enemyrunner = (GameObject)Instantiate (
 
-					enemyRunnerPrefab,
-					enemySpawn.position,
-					enemySpawn.rotation);
+				                   enemyRunnerPrefab,
+				                   enemySpawn.position,
+				                   enemySpawn.rotation);
 
-
+			
+	
 
 				enemyrunner.GetComponent<Rigidbody> ().AddForce (0f, 0f, -1f, ForceMode.Acceleration);
-
+		
 
 
 		

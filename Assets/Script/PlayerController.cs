@@ -15,17 +15,13 @@ public class PlayerController : MonoBehaviour {
 	public float jumpSpeed = 1.0F;
 	public float gravity = 5.0F;
 	public float verticalVelocity;
-	public float rotation = 0f;
 	CharacterController controller;
 	private Vector3 moveDirection;
 	public GameObject bulletPrefab;
 	public Transform bulletSpawn;
-	public GameObject enemyRunnerPrefab;
-	public Transform enemySpawn;
 	public const int maxHealth = 150;
 	public static int currentHealth = maxHealth; 
-
-
+	public bool primacurva;
 
 
 
@@ -39,6 +35,7 @@ public class PlayerController : MonoBehaviour {
 		anim = GetComponent<Animator> ();
 		rb = GetComponent<Rigidbody> ();
 		controller = rb.GetComponent<CharacterController> ();
+		primacurva = false;
 
 	}
 
@@ -49,9 +46,13 @@ public class PlayerController : MonoBehaviour {
 
 	
 
+		if (primacurva == true) {
 
-		moveDirection = new Vector3 (0f, verticalVelocity, speed);
-
+			moveDirection = new Vector3 (speed, verticalVelocity, 0f);		
+		
+		} else {
+			moveDirection = new Vector3 (0f, verticalVelocity, speed);
+		}
 
 		anim.SetBool ("Jump", false);
 		anim.SetBool ("Shoot", false);
@@ -85,15 +86,28 @@ public class PlayerController : MonoBehaviour {
 
 		if (Input.GetAxis("Horizontal")> 0){
 
-			controller.Move (new Vector3 (0.1f, 0f, 0f));
+			if (primacurva == true) {
 
+				controller.Move (new Vector3 (0f, 0f, -0.1f));
+
+			} else {
+
+				controller.Move (new Vector3 (0.1f, 0f, 0f));
+			}
 		}
 
 		if (Input.GetAxis("Horizontal") < 0){
 
+			if (primacurva == true) {
+			
+				controller.Move (new Vector3 (0f, 0f, 0.1f));
+			
+			
+			} else {
 
-			controller.Move (new Vector3 (-0.1f, 0f, 0f));
 
+				controller.Move (new Vector3 (-0.1f, 0f, 0f));
+			}
 
 		}
 
@@ -124,8 +138,15 @@ public class PlayerController : MonoBehaviour {
 			bulletSpawn.rotation);
 
 
-	
-		bullet.GetComponent<Rigidbody> ().AddRelativeForce (0f, 0f, 50f, ForceMode.Impulse);
+		if (primacurva == true) {
+		
+			bullet.GetComponent<Rigidbody> ().AddRelativeForce (50f, 0f, 0f, ForceMode.Impulse);
+		
+		} else {
+		
+			bullet.GetComponent<Rigidbody> ().AddRelativeForce (0f, 0f, 50f, ForceMode.Impulse);
+		}
+
 
 
 
@@ -166,7 +187,20 @@ public class PlayerController : MonoBehaviour {
 
 		}
 
+		if (hit.CompareTag ("CurvaADX")) {
+
 	
+			this.transform.Rotate (new Vector3 (0, 45, 0));
+		
+			this.transform.position =  new Vector3 (9.08f, -0.74f, 1003.43f);
+
+			primacurva = true;
+		
+		
+		
+		}
+
+
 
 	
 			
