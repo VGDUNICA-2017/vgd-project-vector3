@@ -19,6 +19,7 @@ TagManager:
   - EnemyRunner
   - ActivateEnemyRunner
   - CurvaADX
+  - Arrivo
   layers:
   - Default
   - TransparentFX

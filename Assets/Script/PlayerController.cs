@@ -22,7 +22,9 @@ public class PlayerController : MonoBehaviour {
 	public const int maxHealth = 150;
 	public static int currentHealth = maxHealth; 
 	public bool primacurva;
-
+	private bool finish;
+	private bool morto;
+	private float deathTimer;
 
 
 
@@ -36,7 +38,9 @@ public class PlayerController : MonoBehaviour {
 		rb = GetComponent<Rigidbody> ();
 		controller = rb.GetComponent<CharacterController> ();
 		primacurva = false;
-
+		finish = false;
+		morto = false;
+		deathTimer = 4f;
 	}
 
 
@@ -44,21 +48,35 @@ public class PlayerController : MonoBehaviour {
 
 	void FixedUpdate() {
 
-	
-
-		if (primacurva == true) {
+		if (finish == true) {
+		
+			moveDirection = new Vector3 (0f, 0f, 0f);
+		
+		
+		}else 
+			if (primacurva == true) {
 
 			moveDirection = new Vector3 (speed, verticalVelocity, 0f);		
 		
-		} else {
-			moveDirection = new Vector3 (0f, verticalVelocity, speed);
+			} else {
+				moveDirection = new Vector3 (0f, verticalVelocity, speed);
+			}
+
+		if (morto == true) {
+			deathTimer -= Time.deltaTime;
+
+			if (deathTimer <= 0) {
+				currentHealth = maxHealth;
+				SceneManager.LoadScene ("Level01");
+				ScoreManager.score = 0;
+			}
 		}
 
 		anim.SetBool ("Jump", false);
 		anim.SetBool ("Shoot", false);
 	
 
-		if (controller.isGrounded) {
+		if (controller.isGrounded && finish==false) {
 			verticalVelocity = -gravity * Time.deltaTime;
 
 
@@ -83,44 +101,45 @@ public class PlayerController : MonoBehaviour {
 		controller.Move (moveDirection);
 
 		timer -= Time.deltaTime;
-
-		if (Input.GetAxis("Horizontal")> 0){
-
-			if (primacurva == true) {
-
-				controller.Move (new Vector3 (0f, 0f, -0.1f));
-
-			} else {
-
-				controller.Move (new Vector3 (0.1f, 0f, 0f));
-			}
-		}
-
-		if (Input.GetAxis("Horizontal") < 0){
-
-			if (primacurva == true) {
+		if (finish == false) {
 			
-				controller.Move (new Vector3 (0f, 0f, 0.1f));
-			
-			
-			} else {
+			if (Input.GetAxis ("Horizontal") > 0) {
 
+				if (primacurva == true) {
 
-				controller.Move (new Vector3 (-0.1f, 0f, 0f));
-			}
+					controller.Move (new Vector3 (0f, 0f, -0.1f));
 
-		}
+				} else {
 
-		if (Input.GetKeyDown (KeyCode.W)) {
-
-			if (timer <= 0) {
-				timer = 0.5f;
-				anim.Play ("Shoot");
-				Fuoco ();
+					controller.Move (new Vector3 (0.1f, 0f, 0f));
+				}
 			}
 
 
+			if (Input.GetAxis ("Horizontal") < 0) {
 
+				if (primacurva == true) {
+			
+					controller.Move (new Vector3 (0f, 0f, 0.1f));
+						
+				} else {
+					
+					controller.Move (new Vector3 (-0.1f, 0f, 0f));
+				}
+
+			}
+
+			if (Input.GetKeyDown (KeyCode.W)) {
+
+				if (timer <= 0) {
+					timer = 0.5f;
+					anim.Play ("Shoot");
+					Fuoco ();
+				}
+
+
+
+			}
 		}
 
 
@@ -163,12 +182,10 @@ public class PlayerController : MonoBehaviour {
 
 		if(hit.CompareTag("PlayerDead1")){
 
-			currentHealth = maxHealth;
-			SceneManager.LoadScene("Level01");
-			ScoreManager.score = 0;
-
-
-
+			anim.SetBool ("Death", true);
+			anim.Play ("Death");
+			finish = true;
+			morto = true;
 		
 
 		}
@@ -200,6 +217,15 @@ public class PlayerController : MonoBehaviour {
 		
 		}
 
+		if (hit.CompareTag ("Arrivo")) {
+		
+			finish = true;
+			anim.SetBool ("Finish", true);
+		
+		
+		
+		}
+
 
 
 	
@@ -217,10 +243,12 @@ public void TakeDamage(int amount) {
 
 			currentHealth = 0;
 
-			Destroy (this.gameObject);
+			anim.SetBool ("Death", true);
+			anim.Play ("Death");
+			finish = true;
+			morto = true;
 
-			SceneManager.LoadScene ("Level01");
-			ScoreManager.score = 0;
+
 
 			currentHealth = maxHealth;
 		

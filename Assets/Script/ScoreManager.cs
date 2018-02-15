@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class ScoreManager : MonoBehaviour {
 
-	public static int score;
+	public static int score = 0;
 
 	Text text;
 
@@ -19,6 +19,6 @@ public class ScoreManager : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		text.text = "Score :" + score;
+		text.text = "Monete del tesoro :" + score;
 	}
 }
