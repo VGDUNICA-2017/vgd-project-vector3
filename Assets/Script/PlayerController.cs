@@ -40,7 +40,7 @@ public class PlayerController : MonoBehaviour {
 		primacurva = false;
 		finish = false;
 		morto = false;
-		deathTimer = 4f;
+		deathTimer = 3f;
 	}
 
 
@@ -81,7 +81,7 @@ public class PlayerController : MonoBehaviour {
 
 
 
-			if (Input.GetMouseButton (0)) {
+			if (Input.GetKey(KeyCode.Space)) {
 
 				if (isJump == false) {
 					verticalVelocity = jumpSpeed;
