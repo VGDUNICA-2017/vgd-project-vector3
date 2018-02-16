@@ -20,8 +20,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4079083774551768}
   - component: {fileID: 33667278626465014}
-  - component: {fileID: 64437926747064976}
   - component: {fileID: 23533979871487148}
+  - component: {fileID: 65903069552278916}
   m_Layer: 0
   m_Name: Quad
   m_TagString: PlayerDead1
@@ -39,7 +39,7 @@ GameObject:
   - component: {fileID: 4495474769586838}
   - component: {fileID: 33623472296252212}
   - component: {fileID: 23003238330110982}
-  - component: {fileID: 64990309945118622}
+  - component: {fileID: 65142609287975966}
   m_Layer: 0
   m_Name: OstacoloPiccolo
   m_TagString: Untagged
@@ -156,22 +156,8 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1653876209853994}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!64 &64437926747064976
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1653876209853994}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 0
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!64 &64990309945118622
-MeshCollider:
+--- !u!65 &65142609287975966
+BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -180,7 +166,17 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: 185618570808e9948b17f83587dfedb0, type: 3}
+  m_Size: {x: 2.9097853, y: 1.4693727, z: 1.4699999}
+  m_Center: {x: -0.000000059604645, y: -0.000000059604638, z: 0}
+--- !u!65 &65903069552278916
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1653876209853994}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.99999994, y: 1, z: 6.1232336e-17}
+  m_Center: {x: 0.000000059604645, y: 0.000000029802322, z: 0.0000019073486}

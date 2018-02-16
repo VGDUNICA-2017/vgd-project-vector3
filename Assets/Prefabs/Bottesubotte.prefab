@@ -21,7 +21,7 @@ GameObject:
   - component: {fileID: 4624143916355110}
   - component: {fileID: 33050289097500904}
   - component: {fileID: 23185289727058060}
-  - component: {fileID: 64907781051906764}
+  - component: {fileID: 65246102672230394}
   m_Layer: 0
   m_Name: Bottesubotte
   m_TagString: PlayerDead1
@@ -39,7 +39,6 @@ GameObject:
   - component: {fileID: 4375093031276408}
   - component: {fileID: 33628636954410660}
   - component: {fileID: 23376174586057770}
-  - component: {fileID: 64227574234449818}
   m_Layer: 0
   m_Name: Botte
   m_TagString: PlayerDead1
@@ -156,22 +155,8 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1333999920653178}
   m_Mesh: {fileID: 4300000, guid: afae18f54a75dc541960b90ad42439a2, type: 3}
---- !u!64 &64227574234449818
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1333999920653178}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: afae18f54a75dc541960b90ad42439a2, type: 3}
---- !u!64 &64907781051906764
-MeshCollider:
+--- !u!65 &65246102672230394
+BoxCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
@@ -180,7 +165,5 @@ MeshCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: afae18f54a75dc541960b90ad42439a2, type: 3}
+  m_Size: {x: 2.0266016, y: 2.0266018, z: 2.0000005}
+  m_Center: {x: 0, y: -0.00000005960466, z: 0}

@@ -40,7 +40,7 @@ GameObject:
   - component: {fileID: 4688582786118316}
   - component: {fileID: 33333992979066122}
   - component: {fileID: 23504324087075382}
-  - component: {fileID: 64448364634758652}
+  - component: {fileID: 65999829246839170}
   m_Layer: 0
   m_Name: Corridoio
   m_TagString: Untagged
@@ -171,20 +171,6 @@ MeshCollider:
   m_InflateMesh: 0
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
---- !u!64 &64448364634758652
-MeshCollider:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1986623103592398}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Convex: 1
-  m_InflateMesh: 0
-  m_SkinWidth: 0.01
-  m_Mesh: {fileID: 4300000, guid: 18b73e7ccea5b0546a7811eda281a238, type: 3}
 --- !u!65 &65718026462462862
 BoxCollider:
   m_ObjectHideFlags: 1
@@ -197,3 +183,15 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 1.0000001, z: 1.4272087e-14}
   m_Center: {x: 0, y: 0, z: -0.0000019073486}
+--- !u!65 &65999829246839170
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1986623103592398}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.4702635, y: 1.4695691, z: 1.4696618}
+  m_Center: {x: -0.000161618, y: -0.0000911653, z: -0.000039756294}
