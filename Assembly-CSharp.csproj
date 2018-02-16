@@ -61,6 +61,7 @@
      <Compile Include="Assets\Script\EnemySpawnCURVADX.cs" />
      <Compile Include="Assets\Script\HeartGesture.cs" />
      <Compile Include="Assets\Script\medikitScript.cs" />
+     <Compile Include="Assets\Script\MenuPrincipale.cs" />
      <Compile Include="Assets\Script\PlayerController.cs" />
      <Compile Include="Assets\Script\ScoreManager.cs" />
      <Compile Include="Assets\Script\SpawnEnemyRunner.cs" />
