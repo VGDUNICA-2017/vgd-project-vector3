@@ -67,7 +67,8 @@ public class PlayerController : MonoBehaviour {
 
 			if (deathTimer <= 0) {
 				currentHealth = maxHealth;
-				SceneManager.LoadScene ("Level01");
+				Scene active = SceneManager.GetActiveScene ();
+				SceneManager.LoadScene (active.name);
 				ScoreManager.score = 0;
 			}
 		}
