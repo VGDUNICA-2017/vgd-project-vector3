@@ -7,6 +7,7 @@ public class MenuPrincipale : MonoBehaviour {
 	public GUIStyle stileBottoni;
 	private bool menuprincipale;
 	private bool menuOpzioni;
+	private bool caricaPartita;
 
 	void Start(){
 
@@ -24,11 +25,15 @@ public class MenuPrincipale : MonoBehaviour {
 			
 			if (GUILayout.Button ("Nuova Partita", stileBottoni)) {
 		
-				Application.LoadLevel ("Level01");
+				Application.LoadLevel ("Livello1");
 		
 			}
 			;
-			GUILayout.Button ("Carica Partita", stileBottoni);
+			if (GUILayout.Button ("Scegli Livello", stileBottoni)) {
+				menuprincipale = false;
+				caricaPartita = true;
+			
+			};
 
 			if (GUILayout.Button ("Opzioni", stileBottoni)) {
 				menuprincipale = false;
@@ -57,6 +62,41 @@ public class MenuPrincipale : MonoBehaviour {
 				menuprincipale = true;
 
 			}
+		
+		
+		
+		}
+
+		if (caricaPartita) {
+
+
+			if (GUILayout.Button ("La Foresta Rossa", stileBottoni)) {
+
+				Application.LoadLevel ("Livello1");
+
+			}
+			;
+			GUILayout.Button ("Not Found", stileBottoni);
+
+
+			if (GUILayout.Button ("Giardino di Harumi", stileBottoni)) {
+			
+			
+				Application.LoadLevel ("Level01");
+			
+			};
+
+			if (GUILayout.Button ("Indietro", stileBottoni)) {
+
+
+				caricaPartita = false;
+				menuprincipale = true;
+
+			};
+
+
+
+
 		
 		
 		
