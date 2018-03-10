@@ -19,7 +19,7 @@ public class MenuPrincipale : MonoBehaviour {
 	}
 
 	void OnGUI(){
-		GUILayout.BeginArea (new Rect (Screen.width / 2 - 250, Screen.height / 2 - 250, 500, 500));
+		GUILayout.BeginArea (new Rect (Screen.width / 2 - 150, Screen.height / 2 - 200, 350, 500));
 
 		if (menuprincipale) {
 			

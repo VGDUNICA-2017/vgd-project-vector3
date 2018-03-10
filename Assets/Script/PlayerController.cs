@@ -130,7 +130,7 @@ public class PlayerController : MonoBehaviour {
 
 			}
 
-			if (Input.GetKeyDown (KeyCode.W)) {
+			if (Input.GetKeyDown (KeyCode.W) || Input.GetAxis("Vertical") > 0) {
 
 				if (timer <= 0) {
 					timer = 0.5f;

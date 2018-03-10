@@ -16,30 +16,38 @@ public class HeartGesture : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 
 		if (PlayerController.currentHealth < 150 && PlayerController.currentHealth >= 100) {
 
-			heartone.SetActive (true);
+			heartone.SetActive (false);
 			hearttwo.SetActive (true);
-			hearttree.SetActive (false);
+			hearttree.SetActive (true);
 		
 		} else if (PlayerController.currentHealth < 100 && PlayerController.currentHealth >= 50) {
 		
-			heartone.SetActive (true);
+			heartone.SetActive (false);
 			hearttwo.SetActive (false);
-			hearttree.SetActive (false);
+			hearttree.SetActive (true);
 		} else if (PlayerController.currentHealth < 50) {
 		
 			heartone.SetActive (false);
 			hearttwo.SetActive (false);
 			hearttree.SetActive (false);
 		
-		} else {
+		} else if (PlayerController.currentHealth == 150) {
 		
 			heartone.SetActive (true);
 			hearttwo.SetActive (true);
 			hearttree.SetActive (true);
+		
+		
+		} else {
+
+			heartone.SetActive (false);
+			hearttwo.SetActive (false);
+			hearttree.SetActive (false);
+
 		
 		
 		}
