@@ -792,7 +792,7 @@ GameObject:
   - component: {fileID: 143006783584629322}
   - component: {fileID: 114747937390427122}
   m_Layer: 0
-  m_Name: Enemyone
+  m_Name: EnemyOne
   m_TagString: EnemyShooter
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2103,6 +2103,7 @@ MonoBehaviour:
     type: 2}
   bulletSpawn: {fileID: 4784918298489200}
   timer: 1
+  player: {fileID: 0}
 --- !u!136 &136471378133247686
 CapsuleCollider:
   m_ObjectHideFlags: 1

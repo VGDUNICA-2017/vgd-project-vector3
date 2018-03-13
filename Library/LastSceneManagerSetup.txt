@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Menuprincipale.unity
+- path: Assets/Livello2.unity
   isLoaded: 1
   isActive: 1
