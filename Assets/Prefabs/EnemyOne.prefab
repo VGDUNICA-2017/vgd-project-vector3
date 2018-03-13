@@ -2103,7 +2103,7 @@ MonoBehaviour:
     type: 2}
   bulletSpawn: {fileID: 4784918298489200}
   timer: 1
-  player: {fileID: 0}
+  player: {fileID: 1074214520295106, guid: 4155c8b242781e04fa8fc92973b85cc0, type: 2}
 --- !u!136 &136471378133247686
 CapsuleCollider:
   m_ObjectHideFlags: 1

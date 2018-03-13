@@ -76,7 +76,12 @@ public class MenuPrincipale : MonoBehaviour {
 
 			}
 			;
-			GUILayout.Button ("Not Found", stileBottoni);
+			if(GUILayout.Button ("Borgo di Inuyama", stileBottoni)){
+
+				Application.LoadLevel ("Livello2");
+
+
+			};
 
 
 			if (GUILayout.Button ("Giardino di Harumi", stileBottoni)) {
@@ -91,6 +96,7 @@ public class MenuPrincipale : MonoBehaviour {
 
 				caricaPartita = false;
 				menuprincipale = true;
+				menuOpzioni = false;
 
 			};
 

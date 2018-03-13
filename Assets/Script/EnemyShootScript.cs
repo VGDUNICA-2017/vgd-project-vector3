@@ -46,7 +46,7 @@ public class EnemyShootScript : MonoBehaviour {
 				
 			} else {
 
-				bullet.GetComponent<Rigidbody> ().AddRelativeForce (0f, 0f, -50f, ForceMode.Impulse);
+				bullet.GetComponent<Rigidbody> ().AddRelativeForce (0f, 0f, 50f, ForceMode.Impulse);
 			
 			}
 
