@@ -66,7 +66,7 @@ PlayerSettings:
   androidBlitType: 0
   defaultIsFullScreen: 1
   defaultIsNativeResolution: 1
-  macRetinaSupport: 1
+  macRetinaSupport: 0
   runInBackground: 0
   captureSingleScreen: 0
   muteOtherAudioSources: 0
@@ -579,7 +579,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: Kiyoshia Journey- VGD
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: Kiyoshia Journey- VGD
   metroCommandLineArgsFile: 
   metroTileShowName: 0
   metroMediumTileShowName: 0

@@ -20,6 +20,10 @@ TagManager:
   - ActivateEnemyRunner
   - CurvaADX
   - Arrivo
+  - ActivateEnemy2
+  - NemicoLivello2
+  - Bullet
+  - Hitable
   layers:
   - Default
   - TransparentFX

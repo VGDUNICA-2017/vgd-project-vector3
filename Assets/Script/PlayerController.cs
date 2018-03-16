@@ -25,7 +25,8 @@ public class PlayerController : MonoBehaviour {
 	private bool finish;
 	private bool morto;
 	private float deathTimer;
-
+	private float hitTimer;
+	public static bool hitted = false;
 
 
 
@@ -38,6 +39,7 @@ public class PlayerController : MonoBehaviour {
 		rb = GetComponent<Rigidbody> ();
 		controller = rb.GetComponent<CharacterController> ();
 		primacurva = false;
+		hitTimer = 1.0f;
 		finish = false;
 		morto = false;
 		deathTimer = 3f;
@@ -47,6 +49,25 @@ public class PlayerController : MonoBehaviour {
 
 
 	void FixedUpdate() {
+
+		hitted = anim.GetBool ("Hit");
+
+		if (hitted == true) {
+			hitTimer -= Time.deltaTime;
+			moveDirection = new Vector3 (0f, 0f, 0f);
+
+			if (hitTimer <= 0) {
+
+				anim.SetBool ("Hit", false);
+				hitted = false;
+				hitTimer = 1.0f;
+			
+			
+			}
+		
+		
+		
+		}
 
 		if (finish == true) {
 		
@@ -198,9 +219,26 @@ public class PlayerController : MonoBehaviour {
 
 		}
 
+		if(hit.CompareTag("ActivateEnemy2")){
+
+			NemicoSecondoLivello.activate = true;
+
+
+		}
+
+
 		if(hit.CompareTag("DeactivateEnemy")){
 
 			EnemyShootScript.activate = false;
+
+
+		}
+
+
+		if(hit.CompareTag("NemicoLivello2")){
+
+			hit.gameObject.SetActive (false);
+			this.TakeDamage (50);
 
 
 		}
@@ -225,6 +263,23 @@ public class PlayerController : MonoBehaviour {
 		
 		
 		
+		}
+
+		if (hit.CompareTag ("Hitable")) {
+
+
+			hitted = true;
+			anim.SetBool ("Hit", true);
+
+
+			if (true) {
+				this.TakeDamage (50);
+
+
+			}
+
+
+
 		}
 
 

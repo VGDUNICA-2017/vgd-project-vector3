@@ -64,20 +64,34 @@ public class EnemyShootScript : MonoBehaviour {
 
 	public void TakeDamage(int amount) {
 
+
+
 		currentHealth -= amount; 
 
-		if (currentHealth <= 0) { 
+		if (currentHealth <= 0) {
 
 			currentHealth = 0;
-
 			Destroy (this.gameObject);
+
+
 		}
 	}
 
 
-	
-	
-	
-	
+	void OnCollisionEnter(Collision collision)
+	{
+
+		var hit = collision.gameObject;
+
+		if (hit.CompareTag("Bullet")){
+
+
+			this.TakeDamage(100);
+		}
+
+
+
+
 	}
+}
 
