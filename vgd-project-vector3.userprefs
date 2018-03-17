@@ -1,22 +1,20 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\HitScript.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\PlayerController.cs">
     <Files>
       <File FileName="Assets\Script\MenuPrincipale.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\BulletScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\EnemyShootScript.cs" Line="74" Column="4" />
-      <File FileName="Assets\Script\EnemyShurikenScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\EnemySpawnCURVADX.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\HeartGesture.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\PlayerController.cs" Line="273" Column="4" />
-      <File FileName="Assets\Script\ChangeCameraScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\NemicoSecondoLivello.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\HitScript.cs" Line="27" Column="55" />
-      <File FileName="Assets\Fx Explosion Pack\Script\DestroyEffect.cs" Line="24" Column="9" />
+      <File FileName="Assets\UIController.cs" Line="1" Column="1" />
+      <File FileName="Assets\PauseMenuScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\PlayerController.cs" Line="199" Column="65" />
+      <File FileName="Assets\Script\CameraScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\EnemyShootScript.cs" Line="45" Column="68" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\Stefano\Documents\GitHub\vgd-project-vector3\Assets\Script\MenuPrincipale.cs" line="14" column="25" />
+      <Breakpoint file="C:\Users\Stefano\Documents\GitHub\vgd-project-vector3\Assets\Script\MenuPrincipale.cs" line="15" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

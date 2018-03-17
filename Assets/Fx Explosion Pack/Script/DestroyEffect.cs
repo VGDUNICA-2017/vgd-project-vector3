@@ -3,27 +3,15 @@ using System.Collections;
 
 public class DestroyEffect : MonoBehaviour {
 
-	private bool destroy = false;
 
-	void Start(){
-	
-	
-		destroy = false;
-	
-	
-	}
 	void FixedUpdate ()
 	{
 
-		if (this.destroy) {
+		if (true) {
 			Destroy (transform.gameObject);
 		}
 	
 	}
 
-	public void SetBool(bool x){
 
-		destroy = x;
-
-	}
 }

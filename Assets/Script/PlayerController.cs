@@ -27,6 +27,7 @@ public class PlayerController : MonoBehaviour {
 	private float deathTimer;
 	private float hitTimer;
 	public static bool hitted = false;
+	public static bool pause = false;
 
 
 
@@ -49,6 +50,19 @@ public class PlayerController : MonoBehaviour {
 
 
 	void FixedUpdate() {
+
+		if (pause == true) {
+
+
+			finish = true;
+			anim.Play ("Idle");
+		
+		
+		} else {
+		
+			finish = false;
+		
+		}
 
 		hitted = anim.GetBool ("Hit");
 
@@ -85,6 +99,7 @@ public class PlayerController : MonoBehaviour {
 
 		if (morto == true) {
 			deathTimer -= Time.deltaTime;
+			moveDirection = new Vector3 (0f, 0f, 0f);
 
 			if (deathTimer <= 0) {
 				currentHealth = maxHealth;
@@ -181,7 +196,7 @@ public class PlayerController : MonoBehaviour {
 
 		if (primacurva == true) {
 		
-			bullet.GetComponent<Rigidbody> ().AddRelativeForce (50f, 0f, 0f, ForceMode.Impulse);
+			bullet.GetComponent<Rigidbody> ().AddRelativeForce (0f, 0f, 50f, ForceMode.Impulse);
 		
 		} else {
 		
@@ -206,7 +221,7 @@ public class PlayerController : MonoBehaviour {
 
 			anim.SetBool ("Death", true);
 			anim.Play ("Death");
-			finish = true;
+	
 			morto = true;
 		
 

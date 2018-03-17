@@ -55,6 +55,7 @@
      <Compile Include="Assets\Fx Explosion Pack\Script\csLightControl.cs" />
      <Compile Include="Assets\Fx Explosion Pack\Script\csMouseOrbit.cs" />
      <Compile Include="Assets\Fx Explosion Pack\Script\DestroyEffect.cs" />
+     <Compile Include="Assets\PauseMenuScript.cs" />
      <Compile Include="Assets\Script\BulletScript.cs" />
      <Compile Include="Assets\Script\CameraScript.cs" />
      <Compile Include="Assets\Script\ChangeCameraScript.cs" />
@@ -70,7 +71,9 @@
      <Compile Include="Assets\Script\NemicoSecondoLivello.cs" />
      <Compile Include="Assets\Script\PlayerController.cs" />
      <Compile Include="Assets\Script\ScoreManager.cs" />
+     <Compile Include="Assets\Script\SpawnEffects.cs" />
      <Compile Include="Assets\Script\SpawnEnemyRunner.cs" />
+     <Compile Include="Assets\UIController.cs" />
      <None Include="Assets\Models\Wood texture floor_01\readme.txt" />
      <None Include="Assets\Prefabs\sryurikennset\Readmejp.txt" />
      <None Include="Assets\Prefabs\sryurikennset\Readme.txt" />

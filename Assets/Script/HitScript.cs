@@ -7,14 +7,19 @@ public class HitScript : MonoBehaviour {
 	private bool destroy;
 	private float timer;
 
+
+
 	void Start(){
 
 		destroy = false;
 		timer = 1.2f;
-	
+
+
 	}
 
 	void FixedUpdate(){
+
+
 	
 		if (destroy == true) {
 		
@@ -22,9 +27,10 @@ public class HitScript : MonoBehaviour {
 
 			if (timer <= 0) {
 
-			
+	
 				Destroy (this.gameObject);
-				this.GetComponent<DestroyEffect> ().SetBool(true);
+
+
 			
 			}
 		
