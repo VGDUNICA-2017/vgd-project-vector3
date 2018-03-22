@@ -53450,6 +53450,89 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4f9d6c3b0ec6f5147809b9077bcb5282, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &2007910736 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1851198465939370, guid: e610ef785d7a1614dba6d8dd3c71a6ae,
+    type: 2}
+  m_PrefabInternal: {fileID: 465990270}
+--- !u!114 &2007910737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2007910736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4f440db560258e499d3784dc12ffae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stileBottoni:
+    m_Name: 
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: b068a3070920a60408a3e097cd343931, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 0f0ce752726222445aa1138ebf18695d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.8664807, g: 0.875, b: 0.25735292, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 0f0ce752726222445aa1138ebf18695d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.86666673, g: 0.8745099, b: 0.25882354, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: 0f0ce752726222445aa1138ebf18695d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.86666673, g: 0.8745099, b: 0.25882354, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: b068a3070920a60408a3e097cd343931, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.86666673, g: 0.8745099, b: 0.25882354, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: 0f0ce752726222445aa1138ebf18695d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.86666673, g: 0.8745099, b: 0.25882354, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: 0f0ce752726222445aa1138ebf18695d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.86666673, g: 0.8745099, b: 0.25882354, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: 0f0ce752726222445aa1138ebf18695d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.86666673, g: 0.8745099, b: 0.25882354, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 12800000, guid: cf4b8b5a5d8ebf344924a43d03e11f91, type: 3}
+    m_FontSize: 80
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 300
+    m_FixedHeight: 300
+    m_StretchWidth: 1
+    m_StretchHeight: 0
 --- !u!1001 &2010020140
 Prefab:
   m_ObjectHideFlags: 0

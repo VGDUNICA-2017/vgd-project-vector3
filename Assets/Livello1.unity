@@ -1264,6 +1264,10 @@ Prefab:
       propertyPath: m_TagString
       value: Arrivo
       objectReference: {fileID: 0}
+    - target: {fileID: 4229505696582798, guid: dbb7a78ba64faa54fad3b32fa17288f9, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.18
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: dbb7a78ba64faa54fad3b32fa17288f9, type: 2}
   m_IsPrefabParent: 0
@@ -2617,6 +2621,68 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1530323395}
   m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &384115559
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 384115562}
+  - component: {fileID: 384115561}
+  - component: {fileID: 384115560}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &384115560
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 384115559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1077351063, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &384115561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 384115559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -619905303, guid: f70555f144d8491a825f0804e09c671c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 5
+--- !u!4 &384115562
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 384115559}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &391533822 stripped
 Transform:
@@ -9275,6 +9341,113 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d4ddb96b79e283e468ab1fdaac089fc4, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1513740454
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1513740455}
+  - component: {fileID: 1513740456}
+  m_Layer: 0
+  m_Name: Finish
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1513740455
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1513740454}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1675380962}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1513740456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1513740454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b03c4be2dba74234c8763eb7cc39b848, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stileBottoni:
+    m_Name: 
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: 2dd3788f8589b40bf82a92d76ffc5091, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 12800000, guid: cf4b8b5a5d8ebf344924a43d03e11f91, type: 3}
+    m_FontSize: 80
+    m_FontStyle: 0
+    m_Alignment: 1
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 300
+    m_FixedHeight: 300
+    m_StretchWidth: 1
+    m_StretchHeight: 0
 --- !u!1001 &1522621753
 Prefab:
   m_ObjectHideFlags: 0
@@ -10496,9 +10669,107 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 1687823978071466, guid: e610ef785d7a1614dba6d8dd3c71a6ae, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114768635310189274, guid: e610ef785d7a1614dba6d8dd3c71a6ae,
+        type: 2}
+      propertyPath: finish
+      value: 
+      objectReference: {fileID: 1513740454}
+    m_RemovedComponents:
+    - {fileID: 114320635978943116, guid: e610ef785d7a1614dba6d8dd3c71a6ae, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: e610ef785d7a1614dba6d8dd3c71a6ae, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1675380958 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1851198465939370, guid: e610ef785d7a1614dba6d8dd3c71a6ae,
+    type: 2}
+  m_PrefabInternal: {fileID: 1675380957}
+--- !u!114 &1675380959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1675380958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4f440db560258e499d3784dc12ffae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stileBottoni:
+    m_Name: 
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: b068a3070920a60408a3e097cd343931, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+    m_Hover:
+      m_Background: {fileID: 2800000, guid: 0f0ce752726222445aa1138ebf18695d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.8664807, g: 0.875, b: 0.25735292, a: 1}
+    m_Active:
+      m_Background: {fileID: 2800000, guid: 0f0ce752726222445aa1138ebf18695d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.86666673, g: 0.8745099, b: 0.25882354, a: 1}
+    m_Focused:
+      m_Background: {fileID: 2800000, guid: 0f0ce752726222445aa1138ebf18695d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.86666673, g: 0.8745099, b: 0.25882354, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 2800000, guid: b068a3070920a60408a3e097cd343931, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.86666673, g: 0.8745099, b: 0.25882354, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 2800000, guid: 0f0ce752726222445aa1138ebf18695d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.86666673, g: 0.8745099, b: 0.25882354, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 2800000, guid: 0f0ce752726222445aa1138ebf18695d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.86666673, g: 0.8745099, b: 0.25882354, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 2800000, guid: 0f0ce752726222445aa1138ebf18695d, type: 3}
+      m_ScaledBackgrounds: []
+      m_TextColor: {r: 0.86666673, g: 0.8745099, b: 0.25882354, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 12800000, guid: cf4b8b5a5d8ebf344924a43d03e11f91, type: 3}
+    m_FontSize: 80
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 300
+    m_FixedHeight: 300
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+--- !u!4 &1675380962 stripped
+Transform:
+  m_PrefabParentObject: {fileID: 4873557253593740, guid: e610ef785d7a1614dba6d8dd3c71a6ae,
+    type: 2}
+  m_PrefabInternal: {fileID: 1675380957}
 --- !u!1001 &1676952895
 Prefab:
   m_ObjectHideFlags: 0
