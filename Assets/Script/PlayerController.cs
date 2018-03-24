@@ -63,138 +63,139 @@ public class PlayerController : MonoBehaviour {
 			if (pause == true) {
 
 
-				finish = true;
+				moveDirection = new Vector3 (0f, 0f, 0f);
+				controller.Move (moveDirection);
 				anim.Play ("Idle");
 		
 		
 			} else {
 		
-				finish = false;
 		
-			}
+		
+			
+				hitted = anim.GetBool ("Hit");
 
-			hitted = anim.GetBool ("Hit");
+				if (hitted == true) {
+					hitTimer -= Time.deltaTime;
+					moveDirection = new Vector3 (0f, 0f, 0f);
 
-			if (hitted == true) {
-				hitTimer -= Time.deltaTime;
-				moveDirection = new Vector3 (0f, 0f, 0f);
+					if (hitTimer <= 0) {
 
-				if (hitTimer <= 0) {
-
-					anim.SetBool ("Hit", false);
-					hitted = false;
-					hitTimer = 1.0f;
+						anim.SetBool ("Hit", false);
+						hitted = false;
+						hitTimer = 1.0f;
 			
 			
+					}
+		
+		
+		
 				}
-		
-		
-		
-			}
 
-			if (arrivo.Equals(true)) {
+				if (arrivo.Equals (true)) {
 		
-				moveDirection = new Vector3 (0f, 0f, 0f);
+					moveDirection = new Vector3 (0f, 0f, 0f);
 		
 		
-			} else if (primacurva == true) {
+				} else if (primacurva == true) {
 
-				moveDirection = new Vector3 (speed, verticalVelocity, 0f);		
+					moveDirection = new Vector3 (speed, verticalVelocity, 0f);		
 		
-			} else {
-				moveDirection = new Vector3 (0f, verticalVelocity, speed);
-			}
-
-			if (morto == true) {
-				deathTimer -= Time.deltaTime;
-				moveDirection = new Vector3 (0f, 0f, 0f);
-
-				if (deathTimer <= 0) {
-					currentHealth = maxHealth;
-					Scene active = SceneManager.GetActiveScene ();
-					SceneManager.LoadScene (active.name);
-					ScoreManager.score = 0;
+				} else {
+					moveDirection = new Vector3 (0f, verticalVelocity, speed);
 				}
-			}
 
-			anim.SetBool ("Jump", false);
-			anim.SetBool ("Shoot", false);
+				if (morto == true) {
+					deathTimer -= Time.deltaTime;
+					moveDirection = new Vector3 (0f, 0f, 0f);
+
+					if (deathTimer <= 0) {
+						currentHealth = maxHealth;
+						Scene active = SceneManager.GetActiveScene ();
+						SceneManager.LoadScene (active.name);
+						ScoreManager.score = 0;
+					}
+				}
+
+				anim.SetBool ("Jump", false);
+				anim.SetBool ("Shoot", false);
 	
 
-			if (controller.isGrounded && finish == false) {
-				verticalVelocity = -gravity * Time.deltaTime;
+				if (controller.isGrounded && finish == false) {
+					verticalVelocity = -gravity * Time.deltaTime;
 
 
 
-				if (Input.GetKey (KeyCode.Space)) {
+					if (Input.GetKey (KeyCode.Space)) {
 
-					if (isJump == false) {
-						verticalVelocity = jumpSpeed;
-						anim.Play ("Jumping");
+						if (isJump == false) {
+							verticalVelocity = jumpSpeed;
+							anim.Play ("Jumping");
+
+						}
+
 
 					}
+				} else {
 
+					verticalVelocity -= gravity * Time.deltaTime;
 
-				}
-			} else {
-
-				verticalVelocity -= gravity * Time.deltaTime;
-
-			}
-
-
-			controller.Move (moveDirection);
-
-			timer -= Time.deltaTime;
-			if (finish == false) {
-			
-				if (Input.GetAxis ("Horizontal") > 0) {
-
-					if (primacurva == true) {
-
-						controller.Move (new Vector3 (0f, 0f, -0.1f));
-
-					} else {
-
-						controller.Move (new Vector3 (0.1f, 0f, 0f));
-					}
 				}
 
 
-				if (Input.GetAxis ("Horizontal") < 0) {
+				controller.Move (moveDirection);
 
-					if (primacurva == true) {
+				timer -= Time.deltaTime;
+				if (finish == false) {
 			
-						controller.Move (new Vector3 (0f, 0f, 0.1f));
+					if (Input.GetAxis ("Horizontal") > 0) {
+
+						if (primacurva == true) {
+
+							controller.Move (new Vector3 (0f, 0f, -0.1f));
+
+						} else {
+
+							controller.Move (new Vector3 (0.1f, 0f, 0f));
+						}
+					}
+
+
+					if (Input.GetAxis ("Horizontal") < 0) {
+
+						if (primacurva == true) {
+			
+							controller.Move (new Vector3 (0f, 0f, 0.1f));
 						
-					} else {
+						} else {
 					
-						controller.Move (new Vector3 (-0.1f, 0f, 0f));
+							controller.Move (new Vector3 (-0.1f, 0f, 0f));
+						}
+
 					}
 
-				}
+					if (Input.GetKeyDown (KeyCode.W) || Input.GetAxis ("Vertical") > 0) {
 
-				if (Input.GetKeyDown (KeyCode.W) || Input.GetAxis ("Vertical") > 0) {
+						if (timer <= 0) {
+							timer = 0.5f;
+							anim.Play ("Shoot");
+							Fuoco ();
+						}
 
-					if (timer <= 0) {
-						timer = 0.5f;
-						anim.Play ("Shoot");
-						Fuoco ();
+
+
 					}
-
-
-
 				}
+
+
+
 			}
-
-
-
 		} else {
 
 			anim.Play ("Idle");
 		
 		
-		} 
+			} 
 	}
 
 	void Fuoco(){

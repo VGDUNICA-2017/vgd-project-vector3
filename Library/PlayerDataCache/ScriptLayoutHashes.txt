@@ -85,6 +85,7 @@ c63db43c730fa2cbb8ca07de15898cb6 UnityEngine.UI.dll:UnityEngine.UI.Toggle
 f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 86d36c43c53541d667100dc90b89cfba UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 1b8c02d0aa82fbf036a2b9b2d713eec3 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
+dc3daeafb48f855138f361ff5207ba0d Assembly-CSharp.dll:.FinishScript
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 dbc29a6f2739d277c10da432d73adb6d UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
 8144169769d51429c4aedc8b0f92d47b UnityEngine.Timeline.dll:UnityEngine.Timeline.AnimationPlayableAsset
@@ -175,4 +176,3 @@ f999551686bdcf1ed8a89d4f54774e23 Assembly-CSharp.dll:.HeartGesture
 fa5e85ae1b11bfb2b023fbb3477f442b Assembly-CSharp.dll:.SpawnEffects
 3a57f36e040b0eb9a134da5c8deaba96 Assembly-CSharp.dll:.csMouseOrbit
 81b851379697f27a0774f5720c20a609 Assembly-CSharp.dll:.PlayerController
-9b3bf8b2e50878eca36208b133b9c349 Assembly-CSharp.dll:.FinishScript
