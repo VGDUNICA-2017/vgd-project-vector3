@@ -40,15 +40,15 @@ public class EnemyShootScript : MonoBehaviour {
 				            bulletSpawn.position,
 				            bulletSpawn.rotation);
 
-			if (player.GetComponent<PlayerController> ().primacurva == true) {
-
-				bullet.GetComponent<Rigidbody> ().AddRelativeForce (50f, 0f, 0f, ForceMode.Impulse);
-				
-			} else {
+	
 
 				bullet.GetComponent<Rigidbody> ().AddRelativeForce (0f, 0f, 50f, ForceMode.Impulse);
+				
+	
+
+
 			
-			}
+	
 
 
 

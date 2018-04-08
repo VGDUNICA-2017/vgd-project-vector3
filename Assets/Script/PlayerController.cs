@@ -207,14 +207,10 @@ public class PlayerController : MonoBehaviour {
 			bulletSpawn.rotation);
 
 
-		if (primacurva == true) {
-		
-			bullet.GetComponent<Rigidbody> ().AddRelativeForce (50f, 0f, 0f, ForceMode.Impulse);
-		
-		} else {
-		
+
 			bullet.GetComponent<Rigidbody> ().AddRelativeForce (0f, 0f, 50f, ForceMode.Impulse);
-		}
+		
+	
 
 
 
@@ -265,7 +261,7 @@ public class PlayerController : MonoBehaviour {
 
 		if(hit.CompareTag("NemicoLivello2")){
 
-			hit.gameObject.SetActive (false);
+
 			this.TakeDamage (50);
 
 

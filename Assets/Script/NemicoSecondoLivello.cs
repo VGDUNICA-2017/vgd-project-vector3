@@ -43,6 +43,13 @@ public class NemicoSecondoLivello : MonoBehaviour {
 			this.TakeDamage(100);
 		}
 
+		if (hit.CompareTag ("Giocatore")) {
+		
+		
+			this.TakeDamage(100);
+		
+		}
+
 
 	
 	
