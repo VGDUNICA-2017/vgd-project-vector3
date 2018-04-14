@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -254,7 +254,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 650945921}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -79, z: -2190}
+  m_LocalPosition: {x: -270, y: -320, z: -2140}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -276,11 +276,11 @@ MonoBehaviour:
     m_Normal:
       m_Background: {fileID: 2800000, guid: 683465f216efcf5418d2d8b0fb11f36c, type: 3}
       m_ScaledBackgrounds: []
-      m_TextColor: {r: 1, g: 1, b: 1, a: 1}
+      m_TextColor: {r: 1, g: 0.57254905, b: 0.039215688, a: 1}
     m_Hover:
       m_Background: {fileID: 2800000, guid: 683465f216efcf5418d2d8b0fb11f36c, type: 3}
       m_ScaledBackgrounds: []
-      m_TextColor: {r: 0.97794116, g: 0, b: 0, a: 1}
+      m_TextColor: {r: 0.97794116, g: 0.9875386, b: 0.9995134, a: 1}
     m_Active:
       m_Background: {fileID: 0}
       m_ScaledBackgrounds: []
@@ -306,20 +306,20 @@ MonoBehaviour:
       m_ScaledBackgrounds: []
       m_TextColor: {r: 0.9558824, g: 0.10542819, b: 0.10542819, a: 1}
     m_Border:
-      m_Left: 1
-      m_Right: 1
-      m_Top: 1
-      m_Bottom: 1
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
     m_Margin:
-      m_Left: 1
-      m_Right: 1
-      m_Top: 1
-      m_Bottom: 1
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
     m_Padding:
-      m_Left: 1
-      m_Right: 1
-      m_Top: 1
-      m_Bottom: 1
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
     m_Overflow:
       m_Left: 0
       m_Right: 0
@@ -330,14 +330,14 @@ MonoBehaviour:
     m_FontStyle: 0
     m_Alignment: 4
     m_WordWrap: 1
-    m_RichText: 1
+    m_RichText: 0
     m_TextClipping: 0
     m_ImagePosition: 0
     m_ContentOffset: {x: 0, y: 0}
-    m_FixedWidth: 0
-    m_FixedHeight: 0
-    m_StretchWidth: 1
-    m_StretchHeight: 1
+    m_FixedWidth: 400
+    m_FixedHeight: 150
+    m_StretchWidth: 0
+    m_StretchHeight: 0
 --- !u!1 &832040178
 GameObject:
   m_ObjectHideFlags: 0
@@ -418,8 +418,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 832040178}
   m_LocalRotation: {x: 0, y: 0.7071068, z: -0.7071068, w: 0}
-  m_LocalPosition: {x: -3.9, y: -290, z: -1238}
-  m_LocalScale: {x: 216.69911, y: 99.999985, z: 150.26328}
+  m_LocalPosition: {x: -271.9, y: -354.7, z: -1238}
+  m_LocalScale: {x: 163.0873, y: 99.999985, z: 137.33289}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2

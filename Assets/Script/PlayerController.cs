@@ -49,6 +49,9 @@ public class PlayerController : MonoBehaviour {
 		deathTimer = 3f;
 		setPalyer = false;
 		arrivo = false;
+		menuFine = false;
+		ScoreManager.score = 0;
+
 	}
 
 
@@ -190,12 +193,7 @@ public class PlayerController : MonoBehaviour {
 
 
 			}
-		} else {
-
-			anim.Play ("Idle");
-		
-		
-			} 
+		} 
 	}
 
 	void Fuoco(){

@@ -35,7 +35,7 @@ public class FinishScript : MonoBehaviour {
 		if (GUILayout.Button ("Ricomincia", stileBottoni)) {
 
 			PlayerController.currentHealth = 100;
-
+			PlayerController.pause = false;
 			Scene active = SceneManager.GetActiveScene ();
 			SceneManager.LoadScene (active.name);
 			ScoreManager.score = 0;

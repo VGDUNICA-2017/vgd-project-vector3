@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.45114875, g: 0.49976242, b: 0.5676662, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -38163,21 +38163,21 @@ Prefab:
         type: 2}
       propertyPath: stileBottoni2.m_Normal.m_Background
       value: 
-      objectReference: {fileID: 2800000, guid: d81a9ce203ec9714ca775d5dce0b75c1, type: 3}
+      objectReference: {fileID: 2800000, guid: 1ea029eeee5caa2419d32f76a77c4a6d, type: 3}
     - target: {fileID: 114196701809127308, guid: fe90f5cc6938c6b43958aa36a4b869aa,
         type: 2}
       propertyPath: stileBottoni2.m_Normal.m_TextColor.r
-      value: 0.89690304
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114196701809127308, guid: fe90f5cc6938c6b43958aa36a4b869aa,
         type: 2}
       propertyPath: stileBottoni2.m_Normal.m_TextColor.g
-      value: 0.9632353
+      value: 0.69803923
       objectReference: {fileID: 0}
     - target: {fileID: 114196701809127308, guid: fe90f5cc6938c6b43958aa36a4b869aa,
         type: 2}
       propertyPath: stileBottoni2.m_Normal.m_TextColor.b
-      value: 0.27622187
+      value: 0.039215688
       objectReference: {fileID: 0}
     - target: {fileID: 114196701809127308, guid: fe90f5cc6938c6b43958aa36a4b869aa,
         type: 2}
@@ -38218,6 +38218,161 @@ Prefab:
       propertyPath: gameMenu
       value: 
       objectReference: {fileID: 1447455725}
+    - target: {fileID: 114196701809127308, guid: fe90f5cc6938c6b43958aa36a4b869aa,
+        type: 2}
+      propertyPath: stileBottoni2.m_Normal.m_TextColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114326699812023616, guid: fe90f5cc6938c6b43958aa36a4b869aa,
+        type: 2}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 853539178}
+    - target: {fileID: 114198210482568344, guid: fe90f5cc6938c6b43958aa36a4b869aa,
+        type: 2}
+      propertyPath: stileBottoni.m_Normal.m_TextColor.g
+      value: 0.57254905
+      objectReference: {fileID: 0}
+    - target: {fileID: 114198210482568344, guid: fe90f5cc6938c6b43958aa36a4b869aa,
+        type: 2}
+      propertyPath: stileBottoni.m_Normal.m_TextColor.b
+      value: 0.039215688
+      objectReference: {fileID: 0}
+    - target: {fileID: 114198210482568344, guid: fe90f5cc6938c6b43958aa36a4b869aa,
+        type: 2}
+      propertyPath: stileBottoni.m_Hover.m_TextColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114198210482568344, guid: fe90f5cc6938c6b43958aa36a4b869aa,
+        type: 2}
+      propertyPath: stileBottoni.m_Hover.m_TextColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114198210482568344, guid: fe90f5cc6938c6b43958aa36a4b869aa,
+        type: 2}
+      propertyPath: stileBottoni.m_Hover.m_TextColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114198210482568344, guid: fe90f5cc6938c6b43958aa36a4b869aa,
+        type: 2}
+      propertyPath: stileBottoni.m_Active.m_TextColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114198210482568344, guid: fe90f5cc6938c6b43958aa36a4b869aa,
+        type: 2}
+      propertyPath: stileBottoni.m_Active.m_TextColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114198210482568344, guid: fe90f5cc6938c6b43958aa36a4b869aa,
+        type: 2}
+      propertyPath: stileBottoni.m_Active.m_TextColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114198210482568344, guid: fe90f5cc6938c6b43958aa36a4b869aa,
+        type: 2}
+      propertyPath: stileBottoni.m_Focused.m_TextColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114198210482568344, guid: fe90f5cc6938c6b43958aa36a4b869aa,
+        type: 2}
+      propertyPath: stileBottoni.m_Focused.m_TextColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114198210482568344, guid: fe90f5cc6938c6b43958aa36a4b869aa,
+        type: 2}
+      propertyPath: stileBottoni.m_OnHover.m_TextColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114198210482568344, guid: fe90f5cc6938c6b43958aa36a4b869aa,
+        type: 2}
+      propertyPath: stileBottoni.m_OnHover.m_TextColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114198210482568344, guid: fe90f5cc6938c6b43958aa36a4b869aa,
+        type: 2}
+      propertyPath: stileBottoni.m_OnActive.m_TextColor.r
+      value: 0.99264705
+      objectReference: {fileID: 0}
+    - target: {fileID: 114198210482568344, guid: fe90f5cc6938c6b43958aa36a4b869aa,
+        type: 2}
+      propertyPath: stileBottoni.m_OnActive.m_TextColor.g
+      value: 0.99264705
+      objectReference: {fileID: 0}
+    - target: {fileID: 114198210482568344, guid: fe90f5cc6938c6b43958aa36a4b869aa,
+        type: 2}
+      propertyPath: stileBottoni.m_OnActive.m_TextColor.b
+      value: 0.99264705
+      objectReference: {fileID: 0}
+    - target: {fileID: 114198210482568344, guid: fe90f5cc6938c6b43958aa36a4b869aa,
+        type: 2}
+      propertyPath: stileBottoni.m_OnFocused.m_TextColor.r
+      value: 0.99264705
+      objectReference: {fileID: 0}
+    - target: {fileID: 114198210482568344, guid: fe90f5cc6938c6b43958aa36a4b869aa,
+        type: 2}
+      propertyPath: stileBottoni.m_OnFocused.m_TextColor.g
+      value: 0.98534817
+      objectReference: {fileID: 0}
+    - target: {fileID: 114198210482568344, guid: fe90f5cc6938c6b43958aa36a4b869aa,
+        type: 2}
+      propertyPath: stileBottoni.m_OnFocused.m_TextColor.b
+      value: 0.98534817
+      objectReference: {fileID: 0}
+    - target: {fileID: 114198210482568344, guid: fe90f5cc6938c6b43958aa36a4b869aa,
+        type: 2}
+      propertyPath: stileBottoni.m_Margin.m_Top
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114198210482568344, guid: fe90f5cc6938c6b43958aa36a4b869aa,
+        type: 2}
+      propertyPath: stileBottoni.m_Padding.m_Top
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114198210482568344, guid: fe90f5cc6938c6b43958aa36a4b869aa,
+        type: 2}
+      propertyPath: stileBottoni.m_FontSize
+      value: 35
+      objectReference: {fileID: 0}
+    - target: {fileID: 114198210482568344, guid: fe90f5cc6938c6b43958aa36a4b869aa,
+        type: 2}
+      propertyPath: stileBottoni.m_Alignment
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 114198210482568344, guid: fe90f5cc6938c6b43958aa36a4b869aa,
+        type: 2}
+      propertyPath: stileBottoni.m_FixedWidth
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 114198210482568344, guid: fe90f5cc6938c6b43958aa36a4b869aa,
+        type: 2}
+      propertyPath: stileBottoni.m_FixedHeight
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 114198210482568344, guid: fe90f5cc6938c6b43958aa36a4b869aa,
+        type: 2}
+      propertyPath: stileBottoni.m_StretchWidth
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114198210482568344, guid: fe90f5cc6938c6b43958aa36a4b869aa,
+        type: 2}
+      propertyPath: stileBottoni2.m_Normal.m_Background
+      value: 
+      objectReference: {fileID: 2800000, guid: 39e1c7c345418544fb86a7c1b7d2552f, type: 3}
+    - target: {fileID: 114198210482568344, guid: fe90f5cc6938c6b43958aa36a4b869aa,
+        type: 2}
+      propertyPath: stileBottoni2.m_OnNormal.m_Background
+      value: 
+      objectReference: {fileID: 2800000, guid: 39e1c7c345418544fb86a7c1b7d2552f, type: 3}
+    - target: {fileID: 114198210482568344, guid: fe90f5cc6938c6b43958aa36a4b869aa,
+        type: 2}
+      propertyPath: stileBottoni2.m_FixedWidth
+      value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 114198210482568344, guid: fe90f5cc6938c6b43958aa36a4b869aa,
+        type: 2}
+      propertyPath: stileBottoni2.m_FixedHeight
+      value: 150
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114449027745072278, guid: fe90f5cc6938c6b43958aa36a4b869aa, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: fe90f5cc6938c6b43958aa36a4b869aa, type: 2}

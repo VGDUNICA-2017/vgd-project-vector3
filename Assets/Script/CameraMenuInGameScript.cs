@@ -8,6 +8,7 @@ public class CameraMenuInGameScript : MonoBehaviour {
 	private bool game = true;
 	private bool count = false;
 	private float time = 7.0f;
+	public GameObject player;
 
 
 	void OnGUI(){
@@ -17,10 +18,15 @@ public class CameraMenuInGameScript : MonoBehaviour {
 
 		if (startgame) {
 
-		
+			PlayerController.pause = false;
+
+
 			if (game) {
 
+				player.SetActive (false);
+
 				if (GUILayout.Button ("START", stileBottoni)) {
+
 
 					count = true;
 					game = false;
@@ -47,7 +53,8 @@ public class CameraMenuInGameScript : MonoBehaviour {
 					}else{
 
 						PlayerController.setPalyer = true;
-					Destroy (this);
+							player.SetActive(true);
+						Destroy (this);
 
 				}
 			

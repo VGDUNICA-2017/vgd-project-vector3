@@ -19,16 +19,11 @@ public class MenuPrincipale : MonoBehaviour {
 	}
 
 	void OnGUI(){
-		GUILayout.BeginArea (new Rect (Screen.width / 2 - 150, Screen.height / 2 - 200, 350, 500));
+		GUILayout.BeginArea (new Rect (Screen.width / 2 - 200, Screen.height / 2 - 200, 500, 1000));
 
 		if (menuprincipale) {
 			
-			if (GUILayout.Button ("Nuova Partita", stileBottoni)) {
-		
-				Application.LoadLevel ("Livello1");
-		
-			}
-			;
+
 			if (GUILayout.Button ("Scegli Livello", stileBottoni)) {
 				menuprincipale = false;
 				caricaPartita = true;

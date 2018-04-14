@@ -22,6 +22,7 @@ public class UIController : MonoBehaviour {
 
 			pause.SetActive (true);
 			PlayerController.pause = true;
+			finish.SetActive (false);
 			deactivate = false;
 
 		
@@ -37,6 +38,8 @@ public class UIController : MonoBehaviour {
 		if (PlayerController.menuFine.Equals (true)) {
 		
 			finish.SetActive (true);
+			pause.SetActive (false);
+
 		
 		}
 		
