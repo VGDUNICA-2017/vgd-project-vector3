@@ -4,10 +4,16 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class FinishScript : MonoBehaviour {
-
+	private AudioSource audio;
 	public GUIStyle stileBottoni;
 	public GUIStyle stileBottoni2;
 	private float time = 20f; 
+
+	void Start(){
+		audio = GetComponent<AudioSource> ();
+
+
+	}
 
 
 	void OnGUI(){
@@ -27,13 +33,13 @@ public class FinishScript : MonoBehaviour {
 	
 			
 			if (GUILayout.Button ("Menu Principale", stileBottoni)) {
-
+				audio.Play ();
 				SceneManager.LoadScene ("Menuprincipale");
 		
 			}
 
 		if (GUILayout.Button ("Ricomincia", stileBottoni)) {
-
+			audio.Play ();
 			PlayerController.currentHealth = 100;
 			PlayerController.pause = false;
 			Scene active = SceneManager.GetActiveScene ();
@@ -42,9 +48,26 @@ public class FinishScript : MonoBehaviour {
 
 		}
 
-		if (GUILayout.Button ("Prossimo Livello", stileBottoni)) {
+		Scene current;
+		current = SceneManager.GetActiveScene ();
+		string name = current.name;
 
-			SceneManager.LoadScene ("Level01");
+		if ((GUILayout.Button ("Prossimo Livello", stileBottoni)) && !name.Equals("Level01")) {
+			audio.Play ();
+		
+			if (name.Equals ("Livello1")) {
+
+					SceneManager.LoadScene ("Livello2");
+
+			}
+
+			if (name.Equals ("Livello2")) {
+
+				SceneManager.LoadScene ("Level01");
+
+			}
+
+
 
 		}
 

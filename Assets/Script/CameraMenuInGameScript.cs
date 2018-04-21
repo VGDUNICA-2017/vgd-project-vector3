@@ -11,6 +11,7 @@ public class CameraMenuInGameScript : MonoBehaviour {
 	public GameObject player;
 
 
+
 	void OnGUI(){
 		 
 

@@ -15,7 +15,7 @@ public class MenuPrincipale : MonoBehaviour {
 	public static int score1 = 0;
 	public static int score2 = 0;
 	public static int score3 = 0;
-
+	private AudioSource audio;
 
 
 	void Start(){
@@ -23,6 +23,8 @@ public class MenuPrincipale : MonoBehaviour {
 		menuprincipale = true;
 		//PlayerPrefs.SetFloat ("ScoreLivello1", 0);
 		menuOpzioni = false;
+		 audio = GetComponent<AudioSource> ();
+
 	
 	}
 
@@ -37,6 +39,7 @@ public class MenuPrincipale : MonoBehaviour {
 	
 		if (GUILayout.Button ("Best score : " +  PlayerPrefs.GetFloat("ScoreLivello2").ToString() + "\n"  +"Inizia!", stileBottoni1)) {
 
+			audio.Play ();
 			Application.LoadLevel ("Livello2");
 
 
@@ -56,7 +59,7 @@ public class MenuPrincipale : MonoBehaviour {
 
 
 		if(GUILayout.Button ("Best score : " +  PlayerPrefs.GetFloat("ScoreLivello3").ToString() + "\n"  +"Inizia!", stileBottoni2)){
-
+			audio.Play ();
 			Application.LoadLevel ("Level01");
 
 
@@ -74,7 +77,7 @@ public class MenuPrincipale : MonoBehaviour {
 
 		if (GUILayout.Button ("Best score : " +  PlayerPrefs.GetFloat("ScoreLivello1").ToString() + "\n"  +"Inizia!",  stileBottoni3)) {
 
-
+			audio.Play ();
 			Application.LoadLevel ("Livello1");
 
 		};
@@ -96,6 +99,7 @@ public class MenuPrincipale : MonoBehaviour {
 			};**/
 
 			if (GUILayout.Button ("Opzioni", stileBottoni)) {
+				audio.Play ();
 				menuprincipale = false;
 				menuOpzioni = true;
 			
@@ -103,7 +107,7 @@ public class MenuPrincipale : MonoBehaviour {
 			GUILayout.Button ("Credits", stileBottoni);
 
 			if (GUILayout.Button ("Esci", stileBottoni)) {
-
+				audio.Play ();
 				Application.Quit ();
 		
 			}
@@ -118,7 +122,7 @@ public class MenuPrincipale : MonoBehaviour {
 			GUILayout.Button ("Audio", stileBottoni);
 			GUILayout.Button ("Difficoltà", stileBottoni);
 			if (GUILayout.Button ("Indietro", stileBottoni)) {
-
+				audio.Play ();
 				menuOpzioni = false;
 				menuprincipale = true;
 
@@ -135,7 +139,7 @@ public class MenuPrincipale : MonoBehaviour {
 
 			if (GUILayout.Button ("Indietro", stileBottoni)) {
 
-
+				audio.Play ();
 				caricaPartita = false;
 				menuprincipale = true;
 				menuOpzioni = false;

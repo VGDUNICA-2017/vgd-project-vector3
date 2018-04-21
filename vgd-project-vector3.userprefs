@@ -1,18 +1,13 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\MenuPrincipale.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\PlayerController.cs">
     <Files>
-      <File FileName="Assets\Script\MenuPrincipale.cs" Line="38" Column="79" />
-      <File FileName="Assets\Script\PlayerController.cs" Line="336" Column="5" />
-      <File FileName="Assets\Script\CameraScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\EnemyShootScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Standard Assets\Environment\Water\Water\Scripts\Water.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\FinishScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\ScoreManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\UIController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\PauseMenuScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\CameraMenuInGameScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Script\Coin.cs" Line="1" Column="1" />
+      <File FileName="Assets\Script\PauseMenuScript.cs" Line="32" Column="5" />
+      <File FileName="Assets\Script\FinishScript.cs" Line="13" Column="1" />
+      <File FileName="Assets\Script\CameraMenuInGameScript.cs" Line="12" Column="1" />
+      <File FileName="Assets\Script\MenuPrincipale.cs" Line="42" Column="3" />
+      <File FileName="Assets\Script\Coin.cs" Line="23" Column="3" />
+      <File FileName="Assets\Script\PlayerController.cs" Line="135" Column="22" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

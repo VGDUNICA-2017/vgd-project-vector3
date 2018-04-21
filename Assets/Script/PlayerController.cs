@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour {
 	private bool arrivo;
 	public static bool menuFine =false;
 	public MenuPrincipale menu;
-
+	private AudioSource audio;
 
 	// Use this for initialization
 	void Start () {
@@ -51,7 +51,7 @@ public class PlayerController : MonoBehaviour {
 		arrivo = false;
 		menuFine = false;
 		ScoreManager.score = 0;
-
+		audio = GetComponent<AudioSource> ();
 	}
 
 
@@ -132,6 +132,7 @@ public class PlayerController : MonoBehaviour {
 					if (Input.GetKey (KeyCode.Space)) {
 
 						if (isJump == false) {
+							audio.Play ();
 							verticalVelocity = jumpSpeed;
 							anim.Play ("Jumping");
 
@@ -151,7 +152,7 @@ public class PlayerController : MonoBehaviour {
 				timer -= Time.deltaTime;
 				if (finish == false) {
 			
-					if (Input.GetAxis ("Horizontal") > 0) {
+					if (Input.GetAxis ("Horizontal") > 0 && morto==false) {
 
 						if (primacurva == true) {
 
@@ -164,7 +165,7 @@ public class PlayerController : MonoBehaviour {
 					}
 
 
-					if (Input.GetAxis ("Horizontal") < 0) {
+					if (Input.GetAxis ("Horizontal") < 0 && morto == false) {
 
 						if (primacurva == true) {
 			
@@ -177,7 +178,7 @@ public class PlayerController : MonoBehaviour {
 
 					}
 
-					if (Input.GetKeyDown (KeyCode.W) || Input.GetAxis ("Vertical") > 0) {
+					if ((Input.GetKeyDown (KeyCode.W) || Input.GetAxis ("Vertical") > 0) && morto == false && arrivo == false) {
 
 						if (timer <= 0) {
 							timer = 0.5f;
