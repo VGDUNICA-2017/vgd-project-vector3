@@ -274,7 +274,7 @@ MonoBehaviour:
   stileBottoni1:
     m_Name: 
     m_Normal:
-      m_Background: {fileID: 2800000, guid: 6b718735744643e4b94511b4879b3b03, type: 3}
+      m_Background: {fileID: 2800000, guid: 3eef3efc086ce9b41bf459b433f8d2cb, type: 3}
       m_ScaledBackgrounds: []
       m_TextColor: {r: 1, g: 0.57254905, b: 0.039215688, a: 1}
     m_Hover:
@@ -408,7 +408,7 @@ MonoBehaviour:
   stileBottoni2:
     m_Name: 
     m_Normal:
-      m_Background: {fileID: 2800000, guid: 11ebed49dee3b714eb0f78cf509700ec, type: 3}
+      m_Background: {fileID: 2800000, guid: a15f53ca0769b7c4a8ed72b4da9c10c7, type: 3}
       m_ScaledBackgrounds: []
       m_TextColor: {r: 1, g: 0.57254905, b: 0.039215688, a: 1}
     m_Hover:
@@ -475,7 +475,7 @@ MonoBehaviour:
   stileBottoni3:
     m_Name: 
     m_Normal:
-      m_Background: {fileID: 2800000, guid: 469106c595da87049b64f9fc3892194b, type: 3}
+      m_Background: {fileID: 2800000, guid: ecb2d942b8a01884e9ed60f348682d1b, type: 3}
       m_ScaledBackgrounds: []
       m_TextColor: {r: 1, g: 0.57254905, b: 0.039215688, a: 1}
     m_Hover:
@@ -539,6 +539,9 @@ MonoBehaviour:
     m_FixedHeight: 300
     m_StretchWidth: 1
     m_StretchHeight: 0
+  score1: 0
+  score2: 0
+  score3: 0
 --- !u!1 &832040178
 GameObject:
   m_ObjectHideFlags: 0

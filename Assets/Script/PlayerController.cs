@@ -31,7 +31,7 @@ public class PlayerController : MonoBehaviour {
 	public static bool setPalyer;
 	private bool arrivo;
 	public static bool menuFine =false;
-
+	public MenuPrincipale menu;
 
 
 	// Use this for initialization
@@ -283,8 +283,44 @@ public class PlayerController : MonoBehaviour {
 			arrivo = true;
 			menuFine = true;
 			anim.SetBool ("Finish", true);
-		
-		
+			Scene current = SceneManager.GetActiveScene ();
+			string name = current.name.ToString ();
+
+			if (name.Equals ("Livello1")) {
+
+				if (ScoreManager.score >= PlayerPrefs.GetFloat("ScoreLivello1")) {
+
+
+					PlayerPrefs.SetFloat ("ScoreLivello1", ScoreManager.score);
+				
+				}
+			
+			
+			}
+
+			if (name.Equals ("Livello2")) {
+
+				if (ScoreManager.score >= PlayerPrefs.GetFloat("ScoreLivello2")) {
+
+
+					PlayerPrefs.SetFloat ("ScoreLivello2", ScoreManager.score);
+
+				}
+
+
+			}
+
+			if (name.Equals ("Level01")) {
+
+				if (ScoreManager.score >= PlayerPrefs.GetFloat("ScoreLivello3")) {
+
+
+					PlayerPrefs.SetFloat ("ScoreLivello3", ScoreManager.score);
+
+				}
+
+
+			}
 		
 		}
 

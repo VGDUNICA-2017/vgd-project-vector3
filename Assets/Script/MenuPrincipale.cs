@@ -12,26 +12,37 @@ public class MenuPrincipale : MonoBehaviour {
 	private bool menuprincipale;
 	private bool menuOpzioni;
 	private bool caricaPartita;
+	public static int score1 = 0;
+	public static int score2 = 0;
+	public static int score3 = 0;
+
+
 
 	void Start(){
 
 		menuprincipale = true;
+		//PlayerPrefs.SetFloat ("ScoreLivello1", 0);
 		menuOpzioni = false;
 	
-	
-	
 	}
+
+
 
 	void OnGUI(){
 
 		GUILayout.BeginArea (new Rect (Screen.width / 2 - 150, Screen.height / 2 - 200, 300, 300));
 
+
+
 	
-		if (GUILayout.Button ("Giardino di Harumi", stileBottoni1)) {
+		if (GUILayout.Button ("Best score : " +  PlayerPrefs.GetFloat("ScoreLivello2").ToString() + "\n"  +"Inizia!", stileBottoni1)) {
 
 			Application.LoadLevel ("Livello2");
 
+
 		};
+
+
 	
 	
 	
@@ -44,7 +55,7 @@ public class MenuPrincipale : MonoBehaviour {
 
 
 
-		if(GUILayout.Button ("Borgo di Inuyama", stileBottoni2)){
+		if(GUILayout.Button ("Best score : " +  PlayerPrefs.GetFloat("ScoreLivello3").ToString() + "\n"  +"Inizia!", stileBottoni2)){
 
 			Application.LoadLevel ("Level01");
 
@@ -61,7 +72,7 @@ public class MenuPrincipale : MonoBehaviour {
 		GUILayout.BeginArea (new Rect (Screen.width / 2 - 450, Screen.height / 2 - 200, 300, 300));
 
 
-		if (GUILayout.Button ("La Foresta Rossa", stileBottoni3)) {
+		if (GUILayout.Button ("Best score : " +  PlayerPrefs.GetFloat("ScoreLivello1").ToString() + "\n"  +"Inizia!",  stileBottoni3)) {
 
 
 			Application.LoadLevel ("Livello1");
@@ -142,4 +153,8 @@ public class MenuPrincipale : MonoBehaviour {
 	
 	
 	}
+
+
 }
+
+

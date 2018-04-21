@@ -175,4 +175,4 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 f999551686bdcf1ed8a89d4f54774e23 Assembly-CSharp.dll:.HeartGesture
 fa5e85ae1b11bfb2b023fbb3477f442b Assembly-CSharp.dll:.SpawnEffects
 3a57f36e040b0eb9a134da5c8deaba96 Assembly-CSharp.dll:.csMouseOrbit
-81b851379697f27a0774f5720c20a609 Assembly-CSharp.dll:.PlayerController
+a031c0b0df1489c2e3678a1969083736 Assembly-CSharp.dll:.PlayerController
