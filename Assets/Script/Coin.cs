@@ -7,29 +7,16 @@ public class Coin : MonoBehaviour {
 
 	Rigidbody rb;
 
-	private new AudioSource audio;
-
-
-	void Start(){
-
-
-		audio = GetComponent<AudioSource> ();
-
-	}
 
 	void OnTriggerEnter(Collider other){
 
 		GameObject hit = other.gameObject;
-
-		if(hit.CompareTag("Giocatore")){
-			audio.Play ();
 	
-		} 
-
 		if(hit.CompareTag("Giocatore")){
+	
+			ScoreManager.score += 1;
 
-		ScoreManager.score += 1;
-		Destroy (this.gameObject);
+			Destroy (this.gameObject);
 		}
 
 

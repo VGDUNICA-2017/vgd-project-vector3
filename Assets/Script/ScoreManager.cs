@@ -7,6 +7,7 @@ public class ScoreManager : MonoBehaviour {
 
 	public static int score = 0;
 
+
 	Text text;
 
 

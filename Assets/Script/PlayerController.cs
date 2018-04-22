@@ -33,6 +33,8 @@ public class PlayerController : MonoBehaviour {
 	public static bool menuFine =false;
 	public MenuPrincipale menu;
 	private AudioSource audio;
+	public AudioSource death;
+	public AudioSource coin;
 
 	// Use this for initialization
 	void Start () {
@@ -52,6 +54,7 @@ public class PlayerController : MonoBehaviour {
 		menuFine = false;
 		ScoreManager.score = 0;
 		audio = GetComponent<AudioSource> ();
+
 	}
 
 
@@ -226,11 +229,8 @@ public class PlayerController : MonoBehaviour {
 		var hit = collision.gameObject;
 
 		if(hit.CompareTag("PlayerDead1")){
-
-			anim.SetBool ("Death", true);
-			anim.Play ("Death");
-	
-			morto = true;
+			
+			this.TakeDamage (150);
 		
 
 		}
@@ -344,6 +344,7 @@ public class PlayerController : MonoBehaviour {
 
 
 
+
 	
 			
 
@@ -358,7 +359,7 @@ public void TakeDamage(int amount) {
 		if (currentHealth <= 0) { 
 
 			currentHealth = 0;
-
+			death.Play ();
 			anim.SetBool ("Death", true);
 			anim.Play ("Death");
 			finish = true;
@@ -376,6 +377,11 @@ public void TakeDamage(int amount) {
 
 		currentHealth = maxHealth; 
 
+	}
+
+	public void OnTriggerEnter(){
+		coin.Play ();
+	
 	}
 
 
