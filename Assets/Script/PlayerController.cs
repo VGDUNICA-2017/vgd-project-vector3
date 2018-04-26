@@ -35,6 +35,7 @@ public class PlayerController : MonoBehaviour {
 	private AudioSource audio;
 	public AudioSource death;
 	public AudioSource coin;
+	public AudioSource shoot;
 
 	// Use this for initialization
 	void Start () {
@@ -186,6 +187,7 @@ public class PlayerController : MonoBehaviour {
 						if (timer <= 0) {
 							timer = 0.5f;
 							anim.Play ("Shoot");
+							shoot.Play ();
 							Fuoco ();
 						}
 
