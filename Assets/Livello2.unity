@@ -45426,6 +45426,16 @@ Prefab:
       propertyPath: stileBottoni2.m_FixedHeight
       value: 150
       objectReference: {fileID: 0}
+    - target: {fileID: 224902972551589144, guid: fe90f5cc6938c6b43958aa36a4b869aa,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -382
+      objectReference: {fileID: 0}
+    - target: {fileID: 224748240111470886, guid: fe90f5cc6938c6b43958aa36a4b869aa,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -183
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114449027745072278, guid: fe90f5cc6938c6b43958aa36a4b869aa, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: fe90f5cc6938c6b43958aa36a4b869aa, type: 2}
