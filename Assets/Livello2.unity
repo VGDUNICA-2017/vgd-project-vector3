@@ -196,6 +196,56 @@ BoxCollider:
 Transform:
   m_PrefabParentObject: {fileID: 473692, guid: 940bad1b128c3674fa1a8f3e1ee11c2c, type: 2}
   m_PrefabInternal: {fileID: 728685554}
+--- !u!1001 &13190055
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 250.48369
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.06030655
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1801.8729
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0.88450015
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.46653992
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+      propertyPath: m_Name
+      value: bhutanFarmhouseWood (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -124.380005
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &15483180
 GameObject:
   m_ObjectHideFlags: 0
@@ -373,6 +423,56 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9c08283469936b5459723222a84d1d5e, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &18567718
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 251.51001
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1474.2468
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0.7999442
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.60007435
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+      propertyPath: m_Name
+      value: bhutanFarmhouseBrick (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -106.25001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &18597780
 GameObject:
   m_ObjectHideFlags: 0
@@ -471,7 +571,6 @@ GameObject:
   m_Component:
   - component: {fileID: 18844359}
   - component: {fileID: 18844358}
-  - component: {fileID: 18844357}
   - component: {fileID: 18844356}
   m_Layer: 0
   m_Name: Quad (3)
@@ -492,40 +591,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.0000001, y: 1, z: 6.123234e-17}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &18844357
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 18844355}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
 --- !u!33 &18844358
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -544,7 +609,7 @@ Transform:
   m_LocalScale: {x: 1975.9554, y: 17.930471, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 42
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1001 &23021813
 Prefab:
@@ -1475,6 +1540,56 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 940bad1b128c3674fa1a8f3e1ee11c2c, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &92328360
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 213.12889
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1497.5148
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.8510775
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.52504003
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_Name
+      value: bhutanFarmhouseWhiteRedRoof (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 116.658005
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
   m_IsPrefabParent: 0
 --- !u!1 &92506144
 GameObject:
@@ -3519,7 +3634,7 @@ Transform:
   - {fileID: 1817011006}
   - {fileID: 796878807}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 37
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &189569954
 Prefab:
@@ -4179,6 +4294,56 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 214535070}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &221157768
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 214.75763
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1176.0747
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.71589947
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.6982034
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_Name
+      value: bhutanFarmhouseWhiteGreenRoof (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 91.434006
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: f91371871f08e104499d16fe3817380f, type: 2}
+  m_IsPrefabParent: 0
 --- !u!4 &222660726 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4819290882689390, guid: 9c08283469936b5459723222a84d1d5e,
@@ -4499,7 +4664,7 @@ Transform:
   - {fileID: 780122068}
   - {fileID: 1609626385}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 36
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &238769492
 GameObject:
@@ -5124,6 +5289,52 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4f9d6c3b0ec6f5147809b9077bcb5282, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &262507577
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 246.32843
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 258.08228
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0.85186094
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.52376807
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_RootOrder
+      value: 27
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -116.829
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &263591186
 Prefab:
@@ -7211,6 +7422,56 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!1001 &327651625
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 217.13145
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1102.2711
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.7032867
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.7109064
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_Name
+      value: bhutanFarmhouseWhiteGreenRoof (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 89.383
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: f91371871f08e104499d16fe3817380f, type: 2}
+  m_IsPrefabParent: 0
 --- !u!4 &330441959 stripped
 Transform:
   m_PrefabParentObject: {fileID: 401902, guid: 0db4abb2b5b058949ae0e17099b67f37, type: 2}
@@ -7990,7 +8251,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4189578412130270, guid: 4155c8b242781e04fa8fc92973b85cc0, type: 2}
       propertyPath: m_RootOrder
-      value: 1
+      value: 32
       objectReference: {fileID: 0}
     - target: {fileID: 114666169597914688, guid: 4155c8b242781e04fa8fc92973b85cc0,
         type: 2}
@@ -11417,91 +11678,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9c08283469936b5459723222a84d1d5e, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &487178976 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 1494440460791518, guid: fe90f5cc6938c6b43958aa36a4b869aa,
-    type: 2}
-  m_PrefabInternal: {fileID: 1890858862}
---- !u!82 &487178980
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 487178976}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 3d76a65b5fd847545aecfd9b8d762810, type: 3}
-  m_PlayOnAwake: 1
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 1
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    - serializedVersion: 2
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 2
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 0
 --- !u!1001 &487409382
 Prefab:
   m_ObjectHideFlags: 0
@@ -11938,6 +12114,56 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4f9d6c3b0ec6f5147809b9077bcb5282, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &500964031
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 248.68347
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 974.0099
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0.77840453
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.627763
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+      propertyPath: m_Name
+      value: bhutanFarmhouseWood2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -102.229004
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &502476160
 Prefab:
@@ -12803,6 +13029,52 @@ Transform:
   m_PrefabParentObject: {fileID: 4295785456813370, guid: 3d18dc401072453499a86ddb51fc15e4,
     type: 2}
   m_PrefabInternal: {fileID: 318636538}
+--- !u!1001 &536634175
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 245.16467
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 465.48807
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0.79549587
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.60595906
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_RootOrder
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -105.40401
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &539987380
 Prefab:
   m_ObjectHideFlags: 0
@@ -12858,6 +13130,56 @@ Transform:
   m_PrefabParentObject: {fileID: 4495474769586838, guid: 4f9d6c3b0ec6f5147809b9077bcb5282,
     type: 2}
   m_PrefabInternal: {fileID: 478519203}
+--- !u!1001 &550553907
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 253.02615
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.06030655
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1635.5077
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0.8545693
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.5193373
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+      propertyPath: m_Name
+      value: bhutanFarmhouseWood (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -117.424
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &550686320
 Prefab:
   m_ObjectHideFlags: 0
@@ -14480,6 +14802,52 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 626025877}
   m_Mesh: {fileID: 4300004, guid: 41cd55efaf0e951419f2bbe9a1117252, type: 3}
+--- !u!1001 &626256876
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 217.08202
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 638.74554
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.8288518
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.55946815
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+      propertyPath: m_RootOrder
+      value: 19
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 111.962006
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &626374770 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 105870, guid: 940bad1b128c3674fa1a8f3e1ee11c2c, type: 2}
@@ -18349,7 +18717,7 @@ Transform:
   - {fileID: 1094829389}
   - {fileID: 1881930900}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 39
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &826156909 stripped
 Transform:
@@ -22299,6 +22667,56 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 981955292}
   m_Mesh: {fileID: 4300000, guid: 185618570808e9948b17f83587dfedb0, type: 3}
+--- !u!1001 &982800414
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 247.16566
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 599.6174
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0.7162275
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.6978669
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_RootOrder
+      value: 21
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_Name
+      value: bhutanFarmhouseWhite (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -91.48801
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &982965842
 GameObject:
   m_ObjectHideFlags: 0
@@ -22762,6 +23180,56 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1001296872}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1008460993
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 218.5588
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 409.50085
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.7692804
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.63891137
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_RootOrder
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_Name
+      value: bhutanFarmhouseWhite (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 100.579
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1016167528
 GameObject:
   m_ObjectHideFlags: 0
@@ -25541,6 +26009,56 @@ Transform:
   m_PrefabParentObject: {fileID: 4819290882689390, guid: 9c08283469936b5459723222a84d1d5e,
     type: 2}
   m_PrefabInternal: {fileID: 720788680}
+--- !u!1001 &1147644618
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 216.8649
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 177.43065
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.70463485
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.70957017
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_RootOrder
+      value: 28
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_Name
+      value: bhutanFarmhouseWhiteGreenRoof (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 89.600006
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: f91371871f08e104499d16fe3817380f, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &1149178638
 Prefab:
   m_ObjectHideFlags: 0
@@ -25922,6 +26440,56 @@ Transform:
   m_PrefabParentObject: {fileID: 4495474769586838, guid: 4f9d6c3b0ec6f5147809b9077bcb5282,
     type: 2}
   m_PrefabInternal: {fileID: 75032959}
+--- !u!1001 &1163077467
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 216.70387
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 330.58752
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.7527833
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.6582685
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_RootOrder
+      value: 25
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_Name
+      value: bhutanFarmhouseWhiteRedRoof (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 97.664
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1164828589 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 156106, guid: 70c3dab1aeae2324796d1e0955acb5c2, type: 2}
@@ -26983,7 +27551,7 @@ Transform:
   m_LocalScale: {x: 8, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 34
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &1217543517
 GameObject:
@@ -27045,7 +27613,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 35
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1222271580 stripped
 Transform:
@@ -28409,6 +28977,56 @@ BoxCollider:
 Transform:
   m_PrefabParentObject: {fileID: 473692, guid: 940bad1b128c3674fa1a8f3e1ee11c2c, type: 2}
   m_PrefabInternal: {fileID: 1205069648}
+--- !u!1001 &1283898857
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 214.4671
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 999.29407
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.9009233
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.43397844
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_Name
+      value: bhutanFarmhouseWhiteRedRoof (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 128.559
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1292317896
 GameObject:
   m_ObjectHideFlags: 0
@@ -28485,6 +29103,56 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1292317896}
   m_Mesh: {fileID: 4300000, guid: 185618570808e9948b17f83587dfedb0, type: 3}
+--- !u!1001 &1292467994
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 217.132
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 677.50433
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.7098803
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.70432234
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_RootOrder
+      value: 18
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_Name
+      value: bhutanFarmhouseGray (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90.450005
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1295199419
 GameObject:
   m_ObjectHideFlags: 0
@@ -32213,6 +32881,56 @@ Transform:
   m_PrefabParentObject: {fileID: 4731994843277084, guid: 997f909a8d6742645b6822483c736d9a,
     type: 2}
   m_PrefabInternal: {fileID: 470854502}
+--- !u!1001 &1439013389
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 249.62975
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 787.0321
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0.7070492
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.70716447
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_Name
+      value: bhutanFarmhouseWhiteGreenRoof (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -89.991005
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: f91371871f08e104499d16fe3817380f, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1439586051
 GameObject:
   m_ObjectHideFlags: 0
@@ -33100,6 +33818,52 @@ Transform:
   m_PrefabParentObject: {fileID: 4819290882689390, guid: 9c08283469936b5459723222a84d1d5e,
     type: 2}
   m_PrefabInternal: {fileID: 977203538}
+--- !u!1001 &1469437480
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 249.30896
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 301.40808
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0.812118
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.58349323
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+      propertyPath: m_RootOrder
+      value: 26
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -108.607
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+  m_IsPrefabParent: 0
 --- !u!4 &1470222868
 Transform:
   m_ObjectHideFlags: 0
@@ -33272,6 +34036,52 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1477102669}
   m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1479106478
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 219.02664
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 153.64024
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.8529285
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.5220277
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+      propertyPath: m_RootOrder
+      value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 117.063
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1483502079
 GameObject:
   m_ObjectHideFlags: 0
@@ -33381,6 +34191,56 @@ BoxCollider:
 Transform:
   m_PrefabParentObject: {fileID: 439286, guid: 189f8b2eabf764d4489504f0055c48f8, type: 2}
   m_PrefabInternal: {fileID: 263591186}
+--- !u!1001 &1483812690
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 249.89572
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 804.382
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0.71304154
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.7011218
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_RootOrder
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_Name
+      value: bhutanFarmhouseWhiteGreenRoof (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90.966
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: f91371871f08e104499d16fe3817380f, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &1484310622
 Prefab:
   m_ObjectHideFlags: 0
@@ -33795,6 +34655,56 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 940bad1b128c3674fa1a8f3e1ee11c2c, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1001 &1498058337
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 247.9935
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 633.0029
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0.82570237
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.564106
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_RootOrder
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_Name
+      value: bhutanFarmhouseWhiteRedRoof (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -111.32001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
   m_IsPrefabParent: 0
 --- !u!1001 &1505932395
 Prefab:
@@ -34764,6 +35674,56 @@ Prefab:
     - {fileID: 64898396321613302, guid: 3026b2b5484cf884a9885eec4f40ea2b, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 3026b2b5484cf884a9885eec4f40ea2b, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &1528810838
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 217.079
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1333.3624
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.81419015
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.58059835
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_Name
+      value: bhutanFarmhouseGray (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 109.01501
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1529656502 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 105870, guid: 940bad1b128c3674fa1a8f3e1ee11c2c, type: 2}
@@ -34939,6 +35899,56 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1536193908}
   m_Mesh: {fileID: 4300004, guid: 41cd55efaf0e951419f2bbe9a1117252, type: 3}
+--- !u!1001 &1536729232
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 212.06541
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.06030655
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1676.3838
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.8320603
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.5546852
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_Name
+      value: bhutanFarmhouseGray (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 112.622
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+  m_IsPrefabParent: 0
 --- !u!4 &1537632226 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4495474769586838, guid: 4f9d6c3b0ec6f5147809b9077bcb5282,
@@ -37716,6 +38726,56 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 3d18dc401072453499a86ddb51fc15e4, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &1657254715
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 215.48387
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 834.61993
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.78851503
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.61501557
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_RootOrder
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_Name
+      value: bhutanFarmhouseWhiteRedRoof (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 104.094
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1664342233
 GameObject:
   m_ObjectHideFlags: 0
@@ -38450,6 +39510,56 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1001 &1689313750
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 218.04315
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 909.3909
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.8038499
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.5948322
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_Name
+      value: bhutanFarmhouseWhiteGreenRoof (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 106.99901
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: f91371871f08e104499d16fe3817380f, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1691505445
 GameObject:
   m_ObjectHideFlags: 0
@@ -39394,6 +40504,56 @@ Transform:
   m_PrefabParentObject: {fileID: 4495474769586838, guid: 4f9d6c3b0ec6f5147809b9077bcb5282,
     type: 2}
   m_PrefabInternal: {fileID: 470871256}
+--- !u!1001 &1713492606
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 216.2196
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 497.91052
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.88105273
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.47301802
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_RootOrder
+      value: 22
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_Name
+      value: bhutanFarmhouseGray (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 123.53901
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+  m_IsPrefabParent: 0
 --- !u!4 &1718484354 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4819290882689390, guid: 9c08283469936b5459723222a84d1d5e,
@@ -40580,7 +41740,7 @@ Transform:
   - {fileID: 1050135082}
   - {fileID: 1736481141}
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 40
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1768335060
 Prefab:
@@ -41605,6 +42765,52 @@ Transform:
   m_PrefabParentObject: {fileID: 4883428113854616, guid: a53d61edf0915854db57f14773191769,
     type: 2}
   m_PrefabInternal: {fileID: 1105062967}
+--- !u!1001 &1819706326
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 248.1846
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 138.5744
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0.87189937
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.48968506
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_RootOrder
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -121.36001
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1001 &1824811190
 Prefab:
   m_ObjectHideFlags: 0
@@ -42744,7 +43950,7 @@ Transform:
   - {fileID: 1879234825}
   - {fileID: 1438657628}
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 38
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1862179676
 GameObject:
@@ -43213,6 +44419,56 @@ Transform:
   m_PrefabParentObject: {fileID: 4819290882689390, guid: 9c08283469936b5459723222a84d1d5e,
     type: 2}
   m_PrefabInternal: {fileID: 353864453}
+--- !u!1001 &1884974302
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 252.18521
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1137.1145
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0.7092829
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.704924
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+      propertyPath: m_Name
+      value: bhutanFarmhouse (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90.353004
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1885559708
 GameObject:
   m_ObjectHideFlags: 0
@@ -43222,7 +44478,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1885559712}
   - component: {fileID: 1885559711}
-  - component: {fileID: 1885559710}
   - component: {fileID: 1885559709}
   m_Layer: 0
   m_Name: Quad (2)
@@ -43243,40 +44498,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.0000001, y: 1, z: 6.123234e-17}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &1885559710
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1885559708}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 1
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
 --- !u!33 &1885559711
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -43295,7 +44516,7 @@ Transform:
   m_LocalScale: {x: 1975.9554, y: 17.930471, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 41
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1886584893
 GameObject:
@@ -43532,7 +44753,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4353066815778498, guid: fe90f5cc6938c6b43958aa36a4b869aa, type: 2}
       propertyPath: m_RootOrder
-      value: 2
+      value: 33
       objectReference: {fileID: 0}
     - target: {fileID: 1494440460791518, guid: fe90f5cc6938c6b43958aa36a4b869aa, type: 2}
       propertyPath: m_IsActive
@@ -43850,6 +45071,52 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1890951126}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1001 &1891067864
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 218.54947
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 86.242615
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.7711748
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.6366235
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_RootOrder
+      value: 31
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 100.91901
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: f91371871f08e104499d16fe3817380f, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1897398029 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 105870, guid: 940bad1b128c3674fa1a8f3e1ee11c2c, type: 2}
@@ -45462,6 +46729,52 @@ Transform:
   m_PrefabParentObject: {fileID: 4819290882689390, guid: 9c08283469936b5459723222a84d1d5e,
     type: 2}
   m_PrefabInternal: {fileID: 276781259}
+--- !u!1001 &1958614065
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 249.1098
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1302.9532
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -0.7314489
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.6818963
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -94.01601
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &1960788866
 GameObject:
   m_ObjectHideFlags: 0
@@ -46745,6 +48058,56 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2011413064}
   m_Mesh: {fileID: 4300000, guid: 185618570808e9948b17f83587dfedb0, type: 3}
+--- !u!1001 &2013296247
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 214.52994
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 1409.1863
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0.82848537
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 0.5600108
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_Name
+      value: bhutanFarmhouseWhite (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 111.88701
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &2015088714
 GameObject:
   m_ObjectHideFlags: 0
