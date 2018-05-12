@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.45114928, g: 0.49976355, b: 0.5676683, a: 1}
+  m_IndirectSpecularColor: {r: 0.4482453, g: 0.49827206, b: 0.5755818, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -15557,6 +15557,7 @@ GameObject:
   - component: {fileID: 563380419}
   - component: {fileID: 563380418}
   - component: {fileID: 563380423}
+  - component: {fileID: 563380424}
   m_Layer: 0
   m_Name: SecondaryCam
   m_TagString: MainCamera
@@ -15719,6 +15720,14 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!45 &563380424
+Skybox:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 563380417}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 2100000, guid: 119ec07f1c7ed204db46bd8465fd5a50, type: 2}
 --- !u!4 &564637244 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4819290882689390, guid: 9c08283469936b5459723222a84d1d5e,
@@ -49245,7 +49254,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 1
-  m_Color: {r: 0.99716026, g: 1, b: 0.99264705, a: 1}
+  m_Color: {r: 0.04411763, g: 0.036421653, b: 0.016219717, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -53166,7 +53175,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 1
-  m_Color: {r: 0.99716026, g: 1, b: 0.99264705, a: 1}
+  m_Color: {r: 0.3064072, g: 0.28925174, b: 0.78676474, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -53707,6 +53716,7 @@ GameObject:
   - component: {fileID: 1979520386}
   - component: {fileID: 1979520390}
   - component: {fileID: 1979520391}
+  - component: {fileID: 1979520392}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -53869,6 +53879,14 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!45 &1979520392
+Skybox:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1979520385}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 2100000, guid: 119ec07f1c7ed204db46bd8465fd5a50, type: 2}
 --- !u!4 &1984448276 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4819290882689390, guid: 9c08283469936b5459723222a84d1d5e,
