@@ -6,25 +6,27 @@ public class NemicoSecondoLivello : MonoBehaviour {
 
 	public static bool activate;
 	private Animator anim;
+	private new CapsuleCollider collider;
 
 	private int currentHealth;
 
 	// Use this for initialization
-	void Start () {
+	void Awake () {
 		activate = false;
 		anim = GetComponent<Animator>();
-
+		collider = this.GetComponent<CapsuleCollider> ();
 		currentHealth = 100;
 	}
 	
 	// Update is called once per frame
-	void FixedUpdate () {
-
+	void Update () {
+		
 
 		if (activate == true) {
 		
-		
+			currentHealth = 100;
 			anim.SetBool ("activate", true);
+			anim.Play ("Punch");
 		
 		
 		
@@ -43,12 +45,7 @@ public class NemicoSecondoLivello : MonoBehaviour {
 			this.TakeDamage(100);
 		}
 
-		if (hit.CompareTag ("Giocatore")) {
-		
-		
-			this.TakeDamage(100);
-		
-		}
+
 
 
 	
@@ -59,20 +56,25 @@ public class NemicoSecondoLivello : MonoBehaviour {
 	public void TakeDamage(int amount) {
 		
 
-		double timer = 1.5;
+		double timer = 0.5;
 		currentHealth -= amount; 
 
 		if (currentHealth <= 0) {
 
-			anim.SetBool ("Death", true);
+			collider.isTrigger = true;
+			activate = false;
+			anim.Play("Death");
 			timer -= Time.deltaTime;
 			currentHealth = 0;
 
 
 			if (timer <= 0) {
+	
+				activate = false;
 				Destroy (this.gameObject);
 			}
-			
+
+		
 			}
 			}
 }

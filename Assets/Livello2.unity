@@ -2688,6 +2688,10 @@ Prefab:
       propertyPath: m_Name
       value: NemicoLivello2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 1249749156815752, guid: 997f909a8d6742645b6822483c736d9a, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 997f909a8d6742645b6822483c736d9a, type: 2}
   m_IsPrefabParent: 0
@@ -6310,6 +6314,10 @@ Prefab:
     - target: {fileID: 439286, guid: 189f8b2eabf764d4489504f0055c48f8, type: 2}
       propertyPath: m_LocalScale.z
       value: 368.27618
+      objectReference: {fileID: 0}
+    - target: {fileID: 142336, guid: 189f8b2eabf764d4489504f0055c48f8, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 189f8b2eabf764d4489504f0055c48f8, type: 2}
@@ -15024,7 +15032,7 @@ GameObject:
   - component: {fileID: 626439494}
   m_Layer: 0
   m_Name: Cube (36)
-  m_TagString: ActivateEnemy2
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26329,7 +26337,7 @@ GameObject:
   - component: {fileID: 1149871057}
   m_Layer: 0
   m_Name: Cube (11)
-  m_TagString: Untagged
+  m_TagString: ActivateEnemy2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31935,7 +31943,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1389445276
 Transform:
   m_ObjectHideFlags: 0
@@ -32676,6 +32684,10 @@ Prefab:
     - target: {fileID: 439286, guid: 189f8b2eabf764d4489504f0055c48f8, type: 2}
       propertyPath: m_LocalScale.z
       value: 368.27618
+      objectReference: {fileID: 0}
+    - target: {fileID: 142336, guid: 189f8b2eabf764d4489504f0055c48f8, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 189f8b2eabf764d4489504f0055c48f8, type: 2}

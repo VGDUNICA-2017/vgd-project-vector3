@@ -249,6 +249,7 @@ public class PlayerController : MonoBehaviour {
 			NemicoSecondoLivello.activate = true;
 
 
+
 		}
 
 
@@ -263,7 +264,7 @@ public class PlayerController : MonoBehaviour {
 		if(hit.CompareTag("NemicoLivello2")){
 
 
-			this.TakeDamage (50);
+			this.TakeDamage (150);
 
 
 		}
