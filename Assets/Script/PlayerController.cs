@@ -11,7 +11,7 @@ public class PlayerController : MonoBehaviour {
 	bool isJump=false;
 	public float timer = 0.5f;
 	public GameObject MainCameras;
-	public float speed;
+	private float speed;
 	public float jumpSpeed = 1.0F;
 	public float gravity = 5.0F;
 	public float verticalVelocity;
@@ -55,6 +55,13 @@ public class PlayerController : MonoBehaviour {
 		menuFine = false;
 		ScoreManager.score = 0;
 		audio = GetComponent<AudioSource> ();
+		if (PlayerPrefs.GetFloat ("PlayerSpeed") == null) {
+			speed = 0.4f;
+		} else {
+
+			speed = PlayerPrefs.GetFloat ("PlayerSpeed");
+		
+		}
 
 	}
 
