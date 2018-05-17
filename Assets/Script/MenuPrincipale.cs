@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MenuPrincipale : MonoBehaviour {
 
@@ -14,12 +15,13 @@ public class MenuPrincipale : MonoBehaviour {
 	private bool menuOpzioni;
 	private bool menuComandi;
 	private bool menuCredits;
+	private bool menuBase;
 	private bool menuDifficolta;
 	private bool caricaPartita;
 	public static int score1 = 0;
 	public static int score2 = 0;
 	public static int score3 = 0;
-	private AudioSource audio;
+	private new AudioSource audio;
 
 
 	void Start(){
@@ -27,13 +29,14 @@ public class MenuPrincipale : MonoBehaviour {
 		menuprincipale = true;
 		//PlayerPrefs.SetFloat ("ScoreLivello1", 0);
 		menuOpzioni = false;
-		 audio = GetComponent<AudioSource> ();
+		audio = GetComponent<AudioSource> ();
 		menuOpzioni = false;
 		menuComandi = false;
 		menuCredits = false;
 		menuDifficolta = false;
+		menuBase = true;
 
-	
+
 	}
 
 
@@ -41,16 +44,16 @@ public class MenuPrincipale : MonoBehaviour {
 	void OnGUI(){
 
 		if (menuComandi == false && menuCredits==false) {
-			
+
 			GUILayout.BeginArea (new Rect (Screen.width / 2 - 150, Screen.height / 2 - 200, 300, 300));
 
 
 
-	
+
 			if (GUILayout.Button ("Best score : " + PlayerPrefs.GetFloat ("ScoreLivello2").ToString () + "\n" + "Inizia!", stileBottoni1)) {
 
 				audio.Play ();
-				Application.LoadLevel ("Livello2");
+				SceneManager.LoadScene ("Livello2");
 
 
 			}
@@ -65,7 +68,7 @@ public class MenuPrincipale : MonoBehaviour {
 
 			if (GUILayout.Button ("Best score : " + PlayerPrefs.GetFloat ("ScoreLivello3").ToString () + "\n" + "Inizia!", stileBottoni2)) {
 				audio.Play ();
-				Application.LoadLevel ("Level01");
+				SceneManager.LoadScene ("Level01");
 
 
 			}
@@ -84,7 +87,7 @@ public class MenuPrincipale : MonoBehaviour {
 			if (GUILayout.Button ("Best score : " + PlayerPrefs.GetFloat ("ScoreLivello1").ToString () + "\n" + "Inizia!", stileBottoni3)) {
 
 				audio.Play ();
-				Application.LoadLevel ("Livello1");
+				SceneManager.LoadScene ("Livello1");
 
 			}
 			;
@@ -94,23 +97,21 @@ public class MenuPrincipale : MonoBehaviour {
 			GUILayout.EndArea ();
 
 		} else if (menuComandi) {
-		
-			GUILayout.BeginArea (new Rect (Screen.width / 2, Screen.height / 2, 1000, 400));
+
+			GUILayout.BeginArea (new Rect (Screen.width / 2- 500, Screen.height / 2 - 350, 1000, 600));
 
 
-		
+
 
 			GUILayout.Label ("", stileBottoni4);
 
 			GUILayout.EndArea ();
 
-		
-		
-		
-		
+
+
 		} else if (menuCredits) {
-		
-			GUILayout.BeginArea (new Rect (Screen.width / 2, Screen.height / 2, 1000, 400));
+
+			GUILayout.BeginArea (new Rect (Screen.width / 2- 350 ,Screen.height / 2 - 350, 1000, 600));
 
 
 
@@ -119,13 +120,13 @@ public class MenuPrincipale : MonoBehaviour {
 
 			GUILayout.EndArea ();
 
-		
-		
-		
-		
-		
-		
-		
+
+
+
+
+
+
+
 		}
 		GUILayout.BeginArea (new Rect (Screen.width / 2 - 200, Screen.height / 2 + 150, 500, 500));
 
@@ -163,75 +164,72 @@ public class MenuPrincipale : MonoBehaviour {
 					menuDifficolta = false;
 				}
 
-			
-			
-			
-			}else
-				if (menuOpzioni) {
-					
+
+
+
+			} else if (menuOpzioni) {
+
 				if (GUILayout.Button ("Difficoltà", stileBottoni)) {
 
 					audio.Play ();
 					menuDifficolta = true;
 					menuOpzioni = false;
-
-
-
-
 				}
+
+
 				if (GUILayout.Button ("Indietro", stileBottoni)) {
 					audio.Play ();
 					menuOpzioni = false;
 					menuprincipale = true;
 
-			}
-			}else {
+				}
+			} else if (menuBase) {
 
 
 				if (GUILayout.Button ("Opzioni", stileBottoni)) {
 					audio.Play ();
 					menuOpzioni = true;
-			
+
 				}
 				;
-				GUILayout.Button ("Credits", stileBottoni);
+				if (GUILayout.Button ("Comandi", stileBottoni)) {
+					audio.Play ();
+					menuComandi = true;
+					menuBase = false;
+
+				}
+				;
+				if (GUILayout.Button ("Credits", stileBottoni)) {
+
+					menuCredits = true;
+					menuBase = false;
+
+				};
 
 				if (GUILayout.Button ("Esci", stileBottoni)) {
 					audio.Play ();
 					Application.Quit ();
-		
+
 				}
 				;
-	
+
+			} else if (menuComandi || menuCredits) {
+
+				if (GUILayout.Button ("Indietro", stileBottoni)) {
+					audio.Play ();
+					menuBase = true;
+					menuComandi=false;
+					menuCredits = false;
+				}
+
 			}
 		}
 
 
 
-		if (caricaPartita) {
-
-
-	
-
-			if (GUILayout.Button ("Indietro", stileBottoni)) {
-
-				audio.Play ();
-				caricaPartita = false;
-				menuprincipale = true;
-				menuOpzioni = false;
-
-			};
-
-
-
-
-		
-		
-		
-		}
 		GUILayout.EndArea ();
-	
-	
+
+
 	}
 
 
