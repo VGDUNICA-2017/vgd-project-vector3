@@ -12,9 +12,9 @@ public class PlayerController : MonoBehaviour {
 	public float timer = 0.5f;
 	public GameObject MainCameras;
 	private float speed;
-	public float jumpSpeed = 1.0F;
+	public float jumpSpeed;
 	public float gravity = 5.0F;
-	public float verticalVelocity;
+	private float verticalVelocity;
 	CharacterController controller;
 	private Vector3 moveDirection;
 	public GameObject bulletPrefab;
@@ -55,13 +55,15 @@ public class PlayerController : MonoBehaviour {
 		menuFine = false;
 		ScoreManager.score = 0;
 		audio = GetComponent<AudioSource> ();
-		if (PlayerPrefs.GetFloat ("PlayerSpeed") == null) {
-			speed = 0.4f;
-		} else {
+
 
 			speed = PlayerPrefs.GetFloat ("PlayerSpeed");
-		
-		}
+			verticalVelocity = PlayerPrefs.GetFloat ("VerticalVelocity");
+			jumpSpeed= PlayerPrefs.GetFloat ("JumpSpeed");
+
+
+
+
 
 	}
 
@@ -124,7 +126,6 @@ public class PlayerController : MonoBehaviour {
 					moveDirection = new Vector3 (0f, 0f, 0f);
 
 					if (deathTimer <= 0) {
-						currentHealth = maxHealth;
 						Scene active = SceneManager.GetActiveScene ();
 						SceneManager.LoadScene (active.name);
 						ScoreManager.score = 0;
@@ -167,11 +168,11 @@ public class PlayerController : MonoBehaviour {
 
 						if (primacurva == true) {
 
-							controller.Move (new Vector3 (0f, 0f, -0.1f));
+							controller.Move (new Vector3 (0f, 0f, -PlayerPrefs.GetFloat("LateralVelocity")));
 
 						} else {
 
-							controller.Move (new Vector3 (0.1f, 0f, 0f));
+							controller.Move (new Vector3 (PlayerPrefs.GetFloat("LateralVelocity"), 0f, 0f));
 						}
 					}
 
@@ -180,11 +181,11 @@ public class PlayerController : MonoBehaviour {
 
 						if (primacurva == true) {
 			
-							controller.Move (new Vector3 (0f, 0f, 0.1f));
+							controller.Move (new Vector3 (0f, 0f, PlayerPrefs.GetFloat("LateralVelocity")));
 						
 						} else {
 					
-							controller.Move (new Vector3 (-0.1f, 0f, 0f));
+							controller.Move (new Vector3 (-PlayerPrefs.GetFloat("LateralVelocity"), 0f, 0f));
 						}
 
 					}

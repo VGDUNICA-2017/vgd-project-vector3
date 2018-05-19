@@ -35,7 +35,10 @@ public class MenuPrincipale : MonoBehaviour {
 		menuCredits = false;
 		menuDifficolta = false;
 		menuBase = true;
-
+		PlayerPrefs.SetFloat ("PlayerSpeed", 0.4f);
+		PlayerPrefs.SetFloat ("VerticalVelocity", 0.2f);
+		PlayerPrefs.SetFloat ("JumpSpeed", 0.7f);
+		PlayerPrefs.SetFloat ("LateralVelocity", 0.1f);
 
 	}
 
@@ -138,6 +141,9 @@ public class MenuPrincipale : MonoBehaviour {
 				if (GUILayout.Button ("Facile", stileBottoni)) {
 					audio.Play ();
 					PlayerPrefs.SetFloat ("PlayerSpeed", 0.3f);
+					PlayerPrefs.SetFloat ("VerticalVelocity", 0.3f);
+					PlayerPrefs.SetFloat ("JumpSpeed", 0.8f);
+					PlayerPrefs.SetFloat ("LateralVelocity", 0.15f);
 					menuOpzioni = true;
 
 					menuDifficolta = false;
@@ -145,6 +151,9 @@ public class MenuPrincipale : MonoBehaviour {
 				if (GUILayout.Button ("Medio", stileBottoni)) {
 					audio.Play ();
 					PlayerPrefs.SetFloat ("PlayerSpeed", 0.4f);
+					PlayerPrefs.SetFloat ("VerticalVelocity", 0.2f);
+					PlayerPrefs.SetFloat ("JumpSpeed", 0.7f);
+					PlayerPrefs.SetFloat ("LateralVelocity", 0.1f);
 					menuOpzioni = true;
 
 					menuDifficolta = false;
@@ -152,7 +161,10 @@ public class MenuPrincipale : MonoBehaviour {
 				}
 				if (GUILayout.Button ("Difficile", stileBottoni)) {
 					audio.Play ();
-					PlayerPrefs.SetFloat ("PlayerSpeed", 0.5f);
+					PlayerPrefs.SetFloat ("PlayerSpeed", 0.45f);
+					PlayerPrefs.SetFloat ("VerticalVelocity", 0.2f);
+					PlayerPrefs.SetFloat ("JumpSpeed", 0.65f);
+					PlayerPrefs.SetFloat ("LateralVelocity", 0.15f);
 					menuOpzioni = true;
 
 					menuDifficolta = false;
