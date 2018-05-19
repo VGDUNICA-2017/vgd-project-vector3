@@ -73,6 +73,7 @@ GameObject:
   - component: {fileID: 82989001941323652}
   - component: {fileID: 82445022356275366}
   - component: {fileID: 82134313141276618}
+  - component: {fileID: 82180289486689340}
   m_Layer: 0
   m_Name: Player
   m_TagString: Giocatore
@@ -406,6 +407,22 @@ GameObject:
   - component: {fileID: 4085864983853222}
   m_Layer: 0
   m_Name: Hips
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1469966565395062
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4811525351439884}
+  - component: {fileID: 108694589286585964}
+  m_Layer: 0
+  m_Name: danno
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1271,12 +1288,13 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1074214520295106}
   m_LocalRotation: {x: -0, y: 0.0012090529, z: -0, w: 0.9999993}
-  m_LocalPosition: {x: -0.209, y: -0.115, z: -492.139}
+  m_LocalPosition: {x: -0.209, y: -0.15, z: -492.147}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4085864983853222}
   - {fileID: 4208851309865990}
   - {fileID: 4628703124095158}
+  - {fileID: 4811525351439884}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0.13900001, z: 0}
@@ -1837,6 +1855,19 @@ Transform:
   m_Father: {fileID: 4630317095639340}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4811525351439884
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1469966565395062}
+  m_LocalRotation: {x: -0.56937796, y: -1.1641532e-10, z: 5.820766e-11, w: 0.8220759}
+  m_LocalPosition: {x: -0.01, y: 0.007, z: -0.422}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4189578412130270}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: -69.414, y: 0, z: 0}
 --- !u!4 &4827983615510208
 Transform:
   m_ObjectHideFlags: 1
@@ -2017,9 +2048,89 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d261d5fc8420f024fbd7b0e1d950d3ae, type: 3}
-  m_PlayOnAwake: 1
+  m_PlayOnAwake: 0
   m_Volume: 0.3
   m_Pitch: 2.31
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!82 &82180289486689340
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1074214520295106}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 38409f9445b30cf4c8071a75e5a423f3, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 0.3
+  m_Pitch: 2.1
   Loop: 0
   Mute: 0
   Spatialize: 0
@@ -2098,7 +2209,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 01c97b38dbbdfb947aff7c91fff1efbe, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 0.3
+  m_Volume: 0.517
   m_Pitch: 1.85
   Loop: 0
   Mute: 0
@@ -2344,6 +2455,42 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!108 &108694589286585964
+Light:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1469966565395062}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 0
+  m_Color: {r: 0.9338235, g: 0.027465424, b: 0.027465424, a: 1}
+  m_Intensity: 30
+  m_Range: 40
+  m_SpotAngle: 61
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 2
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 0
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!114 &114666169597914688
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2355,12 +2502,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36d33d7fa5467684e80a63bcc6970bc7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  danno: {fileID: 1469966565395062}
   timer: 0.5
   MainCameras: {fileID: 0}
-  speed: 0.4
-  jumpSpeed: 0.7
+  jumpSpeed: 0.8
   gravity: 4
-  verticalVelocity: 0.2
   bulletPrefab: {fileID: 1654906443666118, guid: 1e38e439638cb5b43b0d3da8be80b3f4,
     type: 2}
   bulletSpawn: {fileID: 4628703124095158}
@@ -2368,6 +2514,7 @@ MonoBehaviour:
   menu: {fileID: 0}
   death: {fileID: 82989001941323652}
   coin: {fileID: 82445022356275366}
+  hit: {fileID: 82180289486689340}
   shoot: {fileID: 82134313141276618}
 --- !u!136 &136073826007186100
 CapsuleCollider:

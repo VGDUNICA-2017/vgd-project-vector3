@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour {
 
 	private Rigidbody rb;
-
+	public GameObject danno;
 	private Animator anim;
 	bool isJump=false;
 	public float timer = 0.5f;
@@ -30,12 +30,15 @@ public class PlayerController : MonoBehaviour {
 	public static bool pause = false;
 	public static bool setPalyer;
 	private bool arrivo;
+	private float timerDanno;
 	public static bool menuFine =false;
 	public MenuPrincipale menu;
 	private AudioSource audio;
 	public AudioSource death;
 	public AudioSource coin;
+	public AudioSource hit;
 	public AudioSource shoot;
+	private static int  deathNumber;
 
 	// Use this for initialization
 	void Start () {
@@ -50,6 +53,7 @@ public class PlayerController : MonoBehaviour {
 		finish = false;
 		morto = false;
 		deathTimer = 3f;
+		deathNumber = 0;
 		setPalyer = false;
 		arrivo = false;
 		menuFine = false;
@@ -73,8 +77,14 @@ public class PlayerController : MonoBehaviour {
 	void FixedUpdate() {
 
 		if (setPalyer) {
-
-
+			
+			if (timerDanno > 0) {
+				timerDanno -= Time.deltaTime;
+			}else
+				if(timerDanno <= 0) {
+				danno.SetActive (false);
+				timerDanno = 0;
+			}
 
 			if (pause == true) {
 
@@ -129,6 +139,8 @@ public class PlayerController : MonoBehaviour {
 						Scene active = SceneManager.GetActiveScene ();
 						SceneManager.LoadScene (active.name);
 						ScoreManager.score = 0;
+						currentHealth = 150;
+						deathNumber = 0;
 					}
 				}
 
@@ -364,13 +376,20 @@ public class PlayerController : MonoBehaviour {
 
 
 public void TakeDamage(int amount) {
-
+		
+		danno.SetActive(true);
+		timerDanno = 0.5f;
 		currentHealth -= amount; 
 
 		if (currentHealth <= 0) { 
 
+
 			currentHealth = 0;
-			death.Play ();
+			if (deathNumber == 0) {
+				death.Play ();
+				deathNumber = 1;
+
+			}
 			anim.SetBool ("Death", true);
 			anim.Play ("Death");
 			finish = true;
@@ -378,9 +397,14 @@ public void TakeDamage(int amount) {
 
 
 
-			currentHealth = maxHealth;
+		
+		} else {
+
+			hit.Play ();
 		
 		}
+
+	
 	}
 
 
