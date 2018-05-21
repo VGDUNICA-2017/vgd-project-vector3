@@ -764,6 +764,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1366544728005086, guid: 2400716cb97bc4f4ebbb06bea48764eb, type: 2}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2400716cb97bc4f4ebbb06bea48764eb, type: 2}
   m_IsPrefabParent: 0
@@ -24376,6 +24380,21 @@ Prefab:
     - target: {fileID: 1366544728005086, guid: 2400716cb97bc4f4ebbb06bea48764eb, type: 2}
       propertyPath: m_Name
       value: Medikit (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 108724776492476886, guid: 2400716cb97bc4f4ebbb06bea48764eb,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 136666496090661758, guid: 2400716cb97bc4f4ebbb06bea48764eb,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23029416451477662, guid: 2400716cb97bc4f4ebbb06bea48764eb,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 2400716cb97bc4f4ebbb06bea48764eb, type: 2}
