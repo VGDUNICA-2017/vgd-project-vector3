@@ -13,13 +13,14 @@ public class EnemyShootScript : MonoBehaviour {
 	public static int currentHealth = maxHealth; 
 	public static bool activate ;
 	public GameObject player;
+	private new CapsuleCollider collider;
 
 	// Use this for initialization
-	void Start () {
+	void Awake () {
 
 		anim = GetComponent<Animator> ();
 		activate = false;
-
+		collider = this.GetComponent<CapsuleCollider> ();
 		
 	}
 	
@@ -32,7 +33,7 @@ public class EnemyShootScript : MonoBehaviour {
 
 			anim.Play ("Attack");
 
-			timer = 0.7f;
+			timer = 0.9f;
 
 			var bullet = (GameObject)Instantiate (
 
@@ -43,18 +44,7 @@ public class EnemyShootScript : MonoBehaviour {
 	
 
 				bullet.GetComponent<Rigidbody> ().AddRelativeForce (0f, 0f, 50f, ForceMode.Impulse);
-				
-	
-
-
-			
-	
-
-
-
-
-
-
+		
 			Destroy (bullet, 3.0f);
 		}
 
@@ -66,12 +56,23 @@ public class EnemyShootScript : MonoBehaviour {
 
 
 
+		double timer = 0.5;
 		currentHealth -= amount; 
 
 		if (currentHealth <= 0) {
 
+			collider.isTrigger = true;
+			activate = false;
+			anim.Play("Death");
+			timer -= Time.deltaTime;
 			currentHealth = 0;
-			Destroy (this.gameObject);
+
+
+			if (timer <= 0) {
+
+				activate = false;
+				Destroy (this.gameObject);
+			}
 
 
 		}
