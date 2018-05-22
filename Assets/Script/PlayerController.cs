@@ -20,7 +20,7 @@ public class PlayerController : MonoBehaviour {
 	public GameObject bulletPrefab;
 	public Transform bulletSpawn;
 	public const int maxHealth = 150;
-	public static int currentHealth = maxHealth; 
+    public static int currentHealth;
 	public bool primacurva;
 	private bool finish;
 	private bool morto;
@@ -39,6 +39,10 @@ public class PlayerController : MonoBehaviour {
 	public AudioSource hit;
 	public AudioSource shoot;
 	private static int  deathNumber;
+
+    void Awake() {
+        currentHealth = maxHealth;
+    }
 
 	// Use this for initialization
 	void Start () {
@@ -59,11 +63,9 @@ public class PlayerController : MonoBehaviour {
 		menuFine = false;
 		ScoreManager.score = 0;
 		audio = GetComponent<AudioSource> ();
-
-
-			speed = PlayerPrefs.GetFloat ("PlayerSpeed");
-			verticalVelocity = PlayerPrefs.GetFloat ("VerticalVelocity");
-			jumpSpeed= PlayerPrefs.GetFloat ("JumpSpeed");
+		speed = PlayerPrefs.GetFloat ("PlayerSpeed");
+		verticalVelocity = PlayerPrefs.GetFloat ("VerticalVelocity");
+		jumpSpeed= PlayerPrefs.GetFloat ("JumpSpeed");
 
 
 
@@ -284,7 +286,7 @@ public class PlayerController : MonoBehaviour {
 		if(hit.CompareTag("NemicoLivello2")){
 
 
-			this.TakeDamage (150);
+			this.TakeDamage (100);
 
 
 		}

@@ -16,7 +16,7 @@ public class BulletScript : MonoBehaviour {
 		if (hit.CompareTag ("EnemyRunner")) {
 		
 			hit.GetComponent<EnemyRunningScript> ().TakeDamage (damage);
-		
+            Destroy(this.gameObject);
 		}
 
 

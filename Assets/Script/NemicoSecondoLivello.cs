@@ -39,7 +39,7 @@ public class NemicoSecondoLivello : MonoBehaviour {
 
 		var hit = collision.gameObject;
 	
-		if (hit.CompareTag("Bullet")){
+		if (hit.CompareTag("Bullet") || hit.CompareTag("Giocatore")){
 
 
 			this.TakeDamage(100);
