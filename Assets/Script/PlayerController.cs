@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour {
 	private Vector3 moveDirection;
 	public GameObject bulletPrefab;
 	public Transform bulletSpawn;
-	public const int maxHealth = 150;
+	public const int maxHealth = 100;
     public static int currentHealth;
 	public bool primacurva;
 	private bool finish;
@@ -38,7 +38,8 @@ public class PlayerController : MonoBehaviour {
 	public AudioSource coin;
 	public AudioSource hit;
 	public AudioSource shoot;
-	private static int  deathNumber;
+    public AudioSource medikit;
+    private static int  deathNumber;
 
     void Awake() {
         currentHealth = maxHealth;
@@ -66,12 +67,12 @@ public class PlayerController : MonoBehaviour {
 		speed = PlayerPrefs.GetFloat ("PlayerSpeed");
 		verticalVelocity = PlayerPrefs.GetFloat ("VerticalVelocity");
 		jumpSpeed= PlayerPrefs.GetFloat ("JumpSpeed");
+      
 
 
 
 
-
-	}
+    }
 
 
 
@@ -141,7 +142,7 @@ public class PlayerController : MonoBehaviour {
 						Scene active = SceneManager.GetActiveScene ();
 						SceneManager.LoadScene (active.name);
 						ScoreManager.score = 0;
-						currentHealth = 150;
+						currentHealth = 100;
 						deathNumber = 0;
 					}
 				}
@@ -254,12 +255,20 @@ public class PlayerController : MonoBehaviour {
 
 		if(hit.CompareTag("PlayerDead1")){
 			
-			this.TakeDamage (150);
+			this.TakeDamage (100);
 		
 
 		}
 
-		if(hit.CompareTag("ActivateEnemy")){
+        if (hit.CompareTag("Medikit"))
+        {
+
+            medikit.Play();
+
+
+        }
+
+        if (hit.CompareTag("ActivateEnemy")){
 
 			EnemyShootScript.activate = true;
 
@@ -286,7 +295,7 @@ public class PlayerController : MonoBehaviour {
 		if(hit.CompareTag("NemicoLivello2")){
 
 
-			this.TakeDamage (100);
+			this.TakeDamage (50);
 
 
 		}

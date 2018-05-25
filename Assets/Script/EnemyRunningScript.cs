@@ -12,7 +12,7 @@ public class EnemyRunningScript : MonoBehaviour {
 	private Rigidbody rb;
 	public float gravity = 5.0F;
 	private Vector3 moveDirection;
-	private float speed = -0.3f;
+	private float speed = -0.2f;
 	public float verticalVelocity = 1.5f;
 
 
@@ -57,7 +57,7 @@ public class EnemyRunningScript : MonoBehaviour {
 
 
 
-		public static int damage = 50;
+		public static int damage = 25;
 
 		void OnCollisionEnter(Collision coll){
 
@@ -67,9 +67,10 @@ public class EnemyRunningScript : MonoBehaviour {
 			if(hit.CompareTag("Giocatore")){
 
 			hit.GetComponent<PlayerController> ().TakeDamage (damage);
+            Destroy(this.gameObject);
 
 
-			}
+        }
 
 		}
 
