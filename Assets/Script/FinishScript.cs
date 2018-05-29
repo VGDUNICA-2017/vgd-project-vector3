@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class FinishScript : MonoBehaviour {
-	private AudioSource audio;
+	private new AudioSource audio;
 	public GUIStyle stileBottoni;
 	public GUIStyle stileBottoni2;
 	private float time = 20f; 

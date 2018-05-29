@@ -7,7 +7,7 @@ public class PauseMenuScript : MonoBehaviour {
 
 	public GUIStyle stileBottoni;
 	public GUIStyle stileBottoni2;
-	private AudioSource audio;
+	private new AudioSource audio;
 
 	void Start(){
 		audio = GetComponent<AudioSource> ();

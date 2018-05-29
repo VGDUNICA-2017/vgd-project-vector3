@@ -4,18 +4,12 @@ using UnityEngine;
 
 public class SpawnEffects : MonoBehaviour {
 
-	public GameObject effectPrefab;
-	public Transform spawnPoint;
+    public GameObject effectPrefab;
+    public Transform spawnPoint;
 
-	void OnCollisionEnter(Collision other){
-	
-		var effect = (GameObject)Instantiate (
+    void OnCollisionEnter(Collision other) {
 
-			effectPrefab,
-			spawnPoint.position,
-			spawnPoint.rotation);
-		
-	
-	}
 
-}
+
+    }
+    }

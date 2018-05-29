@@ -33,7 +33,7 @@ public class PlayerController : MonoBehaviour {
 	private float timerDanno;
 	public static bool menuFine =false;
 	public MenuPrincipale menu;
-	private AudioSource audio;
+	private new  AudioSource audio;
 	public AudioSource death;
 	public AudioSource coin;
 	public AudioSource hit;
