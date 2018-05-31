@@ -38,13 +38,15 @@ public class MenuPrincipale : MonoBehaviour {
 		PlayerPrefs.SetFloat ("PlayerSpeed", 0.4f);
 		PlayerPrefs.SetFloat ("VerticalVelocity", 0.2f);
 		PlayerPrefs.SetFloat ("JumpSpeed", 0.7f);
-		PlayerPrefs.SetFloat ("LateralVelocity", 0.1f);
-
-	}
+		PlayerPrefs.SetFloat ("LateralVelocity", 0.12f);
+      
+    }
 
 
 
 	void OnGUI(){
+
+        
 
 		if (menuComandi == false && menuCredits==false) {
 
@@ -153,7 +155,7 @@ public class MenuPrincipale : MonoBehaviour {
 					PlayerPrefs.SetFloat ("PlayerSpeed", 0.4f);
 					PlayerPrefs.SetFloat ("VerticalVelocity", 0.2f);
 					PlayerPrefs.SetFloat ("JumpSpeed", 0.7f);
-					PlayerPrefs.SetFloat ("LateralVelocity", 0.1f);
+					PlayerPrefs.SetFloat ("LateralVelocity", 0.12f);
 					menuOpzioni = true;
 
 					menuDifficolta = false;

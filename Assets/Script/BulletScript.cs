@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BulletScript : MonoBehaviour {
 
-	public static int damage = 100;
+	public static int damage = 50;
 
 	void OnCollisionEnter(Collision coll){
 

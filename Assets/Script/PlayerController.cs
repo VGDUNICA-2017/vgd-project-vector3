@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour {
 	private Vector3 moveDirection;
 	public GameObject bulletPrefab;
 	public Transform bulletSpawn;
-	public const int maxHealth = 100;
+	public const int maxHealth = 150;
     public static int currentHealth;
 	public bool primacurva;
 	private bool finish;
@@ -142,7 +142,7 @@ public class PlayerController : MonoBehaviour {
 						Scene active = SceneManager.GetActiveScene ();
 						SceneManager.LoadScene (active.name);
 						ScoreManager.score = 0;
-						currentHealth = 100;
+						currentHealth = maxHealth;
 						deathNumber = 0;
 					}
 				}
@@ -255,7 +255,7 @@ public class PlayerController : MonoBehaviour {
 
 		if(hit.CompareTag("PlayerDead1")){
 			
-			this.TakeDamage (100);
+			this.TakeDamage (150);
 		
 
 		}
@@ -295,7 +295,7 @@ public class PlayerController : MonoBehaviour {
 		if(hit.CompareTag("NemicoLivello2")){
 
 
-			this.TakeDamage (50);
+			this.TakeDamage (100);
 
 
 		}
